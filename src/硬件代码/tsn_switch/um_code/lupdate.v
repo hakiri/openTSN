@@ -104,7 +104,7 @@ always @(posedge clk or negedge rst_n) begin
 		direction <= 1'b0;
 		token_bucket_para <= 32'd10;
 		direct_mac_addr <= 48'b0;
-		time_slot_period <= 32'h7a12;  //reset as 250us
+		time_slot_period <= 32'h7;  //reset as 1.024us
 
 		out_lu_data <= 134'b0;
 		out_lu_data_wr <= 1'b0;

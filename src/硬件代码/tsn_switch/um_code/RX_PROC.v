@@ -39,9 +39,9 @@ module	RX_PROC(
 	timer	
 );
 
-(*MARK_DEBUG="TRUE"*) reg [31:0]rx_t1_type;  
-(*MARK_DEBUG="TRUE"*) reg [31:0]rx_t3_type;  
-(*MARK_DEBUG="TRUE"*) reg [31:0]rx_t4_type;            
+reg [31:0]rx_t1_type;  
+reg [31:0]rx_t3_type;  
+reg [31:0]rx_t4_type;            
 always @(posedge clk or negedge reset) begin
    if(reset == 1'b0) begin
            rx_t1_type<=32'b0;
@@ -80,41 +80,41 @@ parameter w_pkt = 134,
 		  w_ts	= 48;
 input	clk;
 input	reset;
-(*mark_debug="TRUE"*)input	inptp_data_wr;
-(*mark_debug="TRUE"*)input	[w_pkt-1:0]	inptp_data;
-(*mark_debug="TRUE"*)input	inptp_valid_wr;
-(*mark_debug="TRUE"*)input	inptp_valid;
-(*mark_debug="TRUE"*)output	wire inptp_ready;
-(*mark_debug="TRUE"*)output reg ts_4_time_wr;
-(*mark_debug="TRUE"*)output reg [47:0]ts_4_time;
+input	inptp_data_wr;
+input	[w_pkt-1:0]	inptp_data;
+input	inptp_valid_wr;
+input	inptp_valid;
+output	wire inptp_ready;
+output reg ts_4_time_wr;
+output reg [47:0]ts_4_time;
 
 output	reg [w_key-1:0]	key;
 output	reg key_valid;
 
-(*mark_debug="TRUE"*)output	reg	ptp_recv_type_valid;
-(*mark_debug="TRUE"*)output 	reg	[4:0]	ptp_recv_type;
+output	reg	ptp_recv_type_valid;
+output 	reg	[4:0]	ptp_recv_type;
 
-(*mark_debug="TRUE"*)output	reg	ts_2_record;
-(*mark_debug="TRUE"*)output	reg	ts_1_valid;
-(*mark_debug="TRUE"*)output 	reg	[w_ts-1:0]	ts_1;
-(*mark_debug="TRUE"*)output 	reg	ts_4_valid;
-(*mark_debug="TRUE"*)output	reg	[w_ts-1:0]	ts_4;
-(*mark_debug="TRUE"*)input	[w_ts-1:0]	timer;
-(*mark_debug="TRUE"*)wire [9:0]data_count;
+output	reg	ts_2_record;
+output	reg	ts_1_valid;
+output 	reg	[w_ts-1:0]	ts_1;
+output 	reg	ts_4_valid;
+output	reg	[w_ts-1:0]	ts_4;
+input	[w_ts-1:0]	timer;
+wire [9:0]data_count;
 
 reg [w_ts-1:0]rx_timer;
 //input_fifo parameter
 reg		rdreq_pktin;
-(*mark_debug="TRUE"*)wire	[w_pkt-1:0]	q_pktin;
-(*mark_debug="TRUE"*)wire	empty_pktin;
+wire	[w_pkt-1:0]	q_pktin;
+wire	empty_pktin;
 reg inptp_valid_rd;
 wire inptp_valid_rdata;
 
-(*mark_debug="TRUE"*)reg [47:0]md_timestamp;
+reg [47:0]md_timestamp;
 //reg		[3:0]	ptp_recv_type_temp;
-(*mark_debug="TRUE"*)reg		[47:0]	modidy_domain, timer_reg;
-(*mark_debug="TRUE"*)reg     [31:0]rx_t1_count,rx_t3_count,rx_t4_count;
-(*mark_debug="TRUE"*)reg		[3:0]	rx_state;
+reg		[47:0]	modidy_domain, timer_reg;
+reg     [31:0]rx_t1_count,rx_t3_count,rx_t4_count;
+reg		[3:0]	rx_state;
 parameter		IDLE_S = 4'd0,
 				READ_METE_0_S = 4'd1,
 				READ_METE_1_S = 4'd2,

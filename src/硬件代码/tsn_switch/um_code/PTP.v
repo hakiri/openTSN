@@ -30,17 +30,17 @@ module PTP #(
     input clk,
     input rst_n,   
 //cpu or port
-    (*mark_debug="TRUE"*)input  pktin_data_wr,
-    (*mark_debug="TRUE"*)input  [133:0] pktin_data,
-    (*mark_debug="TRUE"*)input  pktin_data_valid,
-    (*mark_debug="TRUE"*)input  pktin_data_valid_wr,
-   (*mark_debug="TRUE"*) output pktin_ready,//pktin_ready = um2port_alf
+   input  pktin_data_wr,
+   input  [133:0] pktin_data,
+   input  pktin_data_valid,
+   input  pktin_data_valid_wr,
+   output pktin_ready,//pktin_ready = um2port_alf
     
-    (*mark_debug="TRUE"*)output ptp2lcm_data_wr,
-   (*mark_debug="TRUE"*) output [133:0] ptp2lcm_data,
-   (*mark_debug="TRUE"*) output ptp2lcm_data_valid,
-   (*mark_debug="TRUE"*) output ptp2lcm_data_valid_wr,
-   (*mark_debug="TRUE"*) input ptp2lcm_ready,//ptp2lcm_ready = port2um_alf    
+   output ptp2lcm_data_wr,
+   output [133:0] ptp2lcm_data,
+   output ptp2lcm_data_valid,
+   output ptp2lcm_data_valid_wr,
+   input ptp2lcm_ready,//ptp2lcm_ready = port2um_alf    
     
     input cfg_cs_n, //low active
 	output wire cfg_ack_n, //low active
@@ -50,9 +50,8 @@ module PTP #(
 	output wire [31:0] cfg_rdata, 
 	output wire cyc_init,
     output wire [47:0]temp_cnt,
-   (*mark_debug="TRUE"*)output wire [47:0]precision_time,
-   (*mark_debug="TRUE"*) output wire [47:0]device_id
-
+   output wire [47:0]precision_time,
+   output wire [47:0]device_id
  
 );
 

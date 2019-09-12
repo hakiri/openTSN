@@ -58,10 +58,10 @@ output	reg      [7:0]  out_mb_md,
 output	reg             out_mb_md_wr,    
 
 //transmit to LCM 
-(*mark_debug="TRUE"*)output	wire      [7:0]  out_mb_q0_used_cnt,
-(*mark_debug="TRUE"*)output	wire      [7:0]  out_mb_q1_used_cnt,
-(*mark_debug="TRUE"*)output	wire      [7:0]  out_mb_q2_used_cnt, 
-(*mark_debug="TRUE"*)output	wire      [7:0]  out_mb_q3_used_cnt
+output	wire      [7:0]  out_mb_q0_used_cnt,
+output	wire      [7:0]  out_mb_q1_used_cnt,
+output	wire      [7:0]  out_mb_q2_used_cnt, 
+output	wire      [7:0]  out_mb_q3_used_cnt
 );
 
 wire      [4:0]  mb_q0_used_cnt;

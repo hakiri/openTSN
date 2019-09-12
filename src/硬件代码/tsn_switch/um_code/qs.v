@@ -33,21 +33,21 @@ input	wire			clk,
 input	wire			rst_n,
 
 //receive from LCM
-(*mark_debug="TRUE"*)input	wire			in_qs_time_slot_flag,
+input	wire			in_qs_time_slot_flag,
 
 //receive from IBM
-(*mark_debug="TRUE"*)input	wire	[23:0]	in_qs_md,
-(*mark_debug="TRUE"*)input	wire			in_qs_md_wr,
+input	wire	[23:0]	in_qs_md,
+input	wire			in_qs_md_wr,
 
 //transmit to MB
-(*mark_debug="TRUE"*)output	reg 	[8:0]	out_qs_md0,       //even-time-slot TSN metadata
-(*mark_debug="TRUE"*)output	reg 			out_qs_md0_wr,
-(*mark_debug="TRUE"*)output	reg 	[8:0]	out_qs_md1,       //odd-time-slot TSN metadata
-(*mark_debug="TRUE"*)output	reg 			out_qs_md1_wr,
-(*mark_debug="TRUE"*)output	reg 	[19:0]	out_qs_md2,       //bandwidth reservation metadata and PTP metadata
-(*mark_debug="TRUE"*)output	reg 			out_qs_md2_wr,
-(*mark_debug="TRUE"*)output	reg 	[8:0]	out_qs_md3,       //best effort metadata
-(*mark_debug="TRUE"*)output	reg 			out_qs_md3_wr
+output	reg 	[8:0]	out_qs_md0,       //even-time-slot TSN metadata
+output	reg 			out_qs_md0_wr,
+output	reg 	[8:0]	out_qs_md1,       //odd-time-slot TSN metadata
+output	reg 			out_qs_md1_wr,
+output	reg 	[19:0]	out_qs_md2,       //bandwidth reservation metadata and PTP metadata
+output	reg 			out_qs_md2_wr,
+output	reg 	[8:0]	out_qs_md3,       //best effort metadata
+output	reg 			out_qs_md3_wr
 
 );
 

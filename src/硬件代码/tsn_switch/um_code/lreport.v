@@ -29,20 +29,20 @@ module lreport #(
 	input rst_n,
 
 //um signal 
-	input in_lr_data_wr,
-	input [133:0] in_lr_data,
-	input in_lr_data_valid,
-	input in_lr_data_valid_wr,
+	(*MARK_DEBUG="TRUE"*)input in_lr_data_wr,
+	(*MARK_DEBUG="TRUE"*)input [133:0] in_lr_data,
+	(*MARK_DEBUG="TRUE"*)input in_lr_data_valid,
+	(*MARK_DEBUG="TRUE"*)input in_lr_data_valid_wr,
 
-	output reg pktin_ready,
-	input [47:0] precision_time,
+	(*MARK_DEBUG="TRUE"*)output reg pktin_ready,
+	(*MARK_DEBUG="TRUE"*)input [47:0] precision_time,
 	input [47:0] in_local_mac_id,   //should be changed to [47:0], represents a mac addr.
 
 //lupdate signal 
-	output reg out_lr_data_wr,
-	output reg [133:0] out_lr_data,
-	output reg out_lr_data_valid,
-	output reg out_lr_data_valid_wr,
+	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_wr,
+	(*MARK_DEBUG="TRUE"*)output reg [133:0] out_lr_data,
+	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_valid,
+	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_valid_wr,
 
 	output [47:0] out_local_mac_id,  //should be changed to [47:0], represents a mac addr.
 
@@ -90,22 +90,22 @@ localparam cnc_mac_addr = 48'h010203040506;  //CNC鑺傜偣mac鍦板�?
 //parameter time_inteval = 20'hFFFFF;  //鍚屾鍛ㄦ湡�??8ms宸﹀�?  2^20 us
 
 
-reg [47:0] time_stamp_rec; //record the accurate timestamp.
-reg report_flag_master;
-reg report_flag_slave;
+(*MARK_DEBUG="TRUE"*)reg [47:0] time_stamp_rec; //record the accurate timestamp.
+(*MARK_DEBUG="TRUE"*)reg report_flag_master;
+(*MARK_DEBUG="TRUE"*)reg report_flag_slave;
 
 reg beacon_update_slave;
 
 reg [4:0] beacon_report_cycle;
 
 //restore the in_data when needed
-reg [133:0] lr_data;
-reg lr_data_wr;
-reg lr_data_valid;
-reg lr_data_valid_wr;
+(*MARK_DEBUG="TRUE"*)reg [133:0] lr_data;
+(*MARK_DEBUG="TRUE"*)reg lr_data_wr;
+(*MARK_DEBUG="TRUE"*)reg lr_data_valid;
+(*MARK_DEBUG="TRUE"*)reg lr_data_valid_wr;
 
 //lreport state machine
-reg [2:0] lreport_state;
+(*MARK_DEBUG="TRUE"*)reg [2:0] lreport_state;
 reg [15:0] ptp_seq;
 
 assign out_local_mac_id = in_local_mac_id;
@@ -125,7 +125,7 @@ always @(posedge clk or negedge rst_n) begin
 		out_lr_data_valid_wr <= 1'b0; 
 		report_flag_slave <= 1'b0; //set to 1'b1 while debug
 		pktin_ready <= 1'b1;
-		time_stamp_rec <= 48'b0;
+		//time_stamp_rec <= 48'b0;
 		ptp_seq <= 16'b0;
 
 		beacon_update_slave <= 1'b0;
@@ -149,7 +149,7 @@ always @(posedge clk or negedge rst_n) begin
                     out_lr_data_valid <= 1'b0;
                     out_lr_data_valid_wr <= 1'b0; 
 					pktin_ready <= 1'b0;
-					time_stamp_rec <= precision_time;
+					//time_stamp_rec <= precision_time;
 					lreport_state <= Set1_S;
 				end
 				else begin
@@ -390,13 +390,15 @@ always @(posedge clk or negedge rst_n) begin
 	if (!rst_n) begin
 		// reset
 		report_flag_master <= 1'b0;
+		time_stamp_rec  <= 48'h0;
 	end
 	else begin
-		if(precision_time[26:0] == 27'hff) begin
+		if(precision_time[21:0] == 22'hff) begin
+		    time_stamp_rec <= precision_time;
 			report_flag_master <= ~report_flag_master;
 		end
-
 		else begin
+		    time_stamp_rec <= time_stamp_rec;
 			report_flag_master <= report_flag_master;
 		end
 	end

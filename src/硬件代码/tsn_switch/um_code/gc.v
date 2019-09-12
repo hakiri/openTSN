@@ -116,7 +116,7 @@ end
 //************************************************************
 //        Judge whether four queues can be scheduled
 //************************************************************
-reg [1:0] state;
+(*MARK_DEBUG="TRUE"*)reg [1:0] state;
 reg       init_flag;   
 localparam IDLE_S = 2'd0,
            JUDGE_QUEUE_S = 2'd1;

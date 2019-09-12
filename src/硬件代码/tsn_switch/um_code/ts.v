@@ -36,10 +36,10 @@ input	wire			rst_n,
 input	wire     [3:0]  in_ts_schedule_valid,
 
 //transmit to MB,transmit out_ts_rden[2] to GC,
-(*mark_debug="TRUE"*)output	reg             out_ts_q0_rden,
-(*mark_debug="TRUE"*)output	reg             out_ts_q1_rden,
-(*mark_debug="TRUE"*)output	reg             out_ts_q2_rden,
-(*mark_debug="TRUE"*)output	reg             out_ts_q3_rden,
+output	reg             out_ts_q0_rden,
+output	reg             out_ts_q1_rden,
+output	reg             out_ts_q2_rden,
+output	reg             out_ts_q3_rden,
  
 //receive from MB
 input	wire 	[7:0]	in_ts_md,     

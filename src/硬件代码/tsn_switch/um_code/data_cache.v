@@ -38,7 +38,7 @@ module data_cache#(
     input  wire  in_data_cache_valid_wr,
     input  wire  in_data_cache_valid,
 	output wire  [7:0]out_data_cache_ID,
-	(*mark_debug="TRUE"*)output wire  [4:0]out_data_cache_ID_count,
+	output wire  [4:0]out_data_cache_ID_count,
 
 //transport to gda module     
     output wire  out_data_cache_data_wr,

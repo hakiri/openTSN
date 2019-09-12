@@ -33,7 +33,7 @@ module	CYC_SYNC(
 	sync_cnt
 );
 
-(*MARK_DEBUG="TRUE"*) reg [31:0]send_sync_cnt;  
+ reg [31:0]send_sync_cnt;  
        
 always @(posedge clk or negedge reset) begin
    if(reset == 1'b0) begin
@@ -51,13 +51,13 @@ end
 
 	input 	clk;
 	input 	reset;
-	(*mark_debug="TRUE"*)input 	m_or_s;
-	(*mark_debug="TRUE"*)input 	status_ok;
+	input 	m_or_s;
+	input 	status_ok;
 	input 	ts_3_valid;
 	input 	[47:0] ts_3;
-	(*mark_debug="TRUE"*)output	reg	[47:0]	timer;
-	(*mark_debug="TRUE"*)output	reg	send_sync_pkt;
-	(*mark_debug="TRUE"*)output	reg	send_test_pkt;
+	output	reg	[47:0]	timer;
+	output	reg	send_sync_pkt;
+	output	reg	send_test_pkt;
 	
 
 	input	ts_2_record;
@@ -65,26 +65,25 @@ end
 	input	[47:0]	ts_1;
 	input	ts_4_valid;
 	input	[47:0]	ts_4;
-	(*mark_debug="TRUE"*)output	reg error1;
-	(*mark_debug="TRUE"*)output	reg cyc_init;
+	output	reg error1;
+	output	reg cyc_init;
 	//(*mark_debug="TRUE"*)input	 cyc_init_ack;
-	(*mark_debug="TRUE"*)output	reg	[47:0]	temp_cnt;
-	(*mark_debug="TRUE"*)input [31:0]sync_cnt;
-	(*mark_debug="TRUE"*)reg [31:0]sync_cmp_cnt;
+	output	reg	[47:0]	temp_cnt;
+	input [31:0]sync_cnt;
+	reg [31:0]sync_cmp_cnt;
 	
 	
-	(*mark_debug="TRUE"*)reg [47:0]	ts_2_reg,ts_1_reg,ts_3_reg,ts_4_reg;
-	(*mark_debug="TRUE"*)output reg	[47:0]	offset;
-	(*mark_debug="TRUE"*)reg	[30:0]	ms_cnt;
-	(*mark_debug="TRUE"*)reg	[16:0]	cyc_cnt;
-	(*mark_debug="TRUE"*)reg			cyc_valid, temp_cnt_valid;
-	(*mark_debug="TRUE"*)reg [1:0]	offset_tag;
-	(*mark_debug="TRUE"*)  reg [47:0]clc_offset;
-	(*mark_debug="TRUE"*)  reg clc_ok,offset_ok;
+	reg [47:0]	ts_2_reg,ts_1_reg,ts_3_reg,ts_4_reg;
+	output reg	[47:0]	offset;
+	reg	[30:0]	ms_cnt;
+	reg	[16:0]	cyc_cnt;
+	reg			cyc_valid, temp_cnt_valid;
+	reg [1:0]	offset_tag;
+	 reg [47:0]clc_offset;
+	reg clc_ok,offset_ok;
 	
 //	reg [47:0]md_timestamp;   
 
-reg [15:0]send_sync_cnt;
 
 reg [1:0]cyc_done;
 reg [1:0] syn_state;

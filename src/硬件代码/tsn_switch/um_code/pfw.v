@@ -91,15 +91,15 @@ always @(posedge clk or negedge rst_n) begin
 						delay0       <= in_pfw_data;
 						
 						pfw_state    <= S_COM_S;
-						if(in_pfw_data[95:88] == 8'd4)begin// smid = 4 :pkt form PTP
-							flag    <= 2'h2;
-						end
-						else if(in_pfw_data[95:88] == 8'd128)begin//smid = 128 :pkt form LCM
-						   flag    <= 2'h1;
-						end
-						else begin
-							flag    <= 2'h0;
-						end
+						// if(in_pfw_data[95:88] == 8'd4)begin// smid = 4 :pkt form PTP
+						// 	flag    <= 2'h2;
+						// end
+						// else if(in_pfw_data[95:88] == 8'd128)begin//smid = 128 :pkt form LCM
+						//    flag    <= 2'h1;
+						// end
+						// else begin
+						// 	flag    <= 2'h0;
+						// end
 					end
 					else begin
 						delay0  <= 134'h0;
@@ -107,10 +107,21 @@ always @(posedge clk or negedge rst_n) begin
 						pfw_state        <= IDLE_S;
 					end
 				end
-				S_COM_S:begin
+				S_COM_S:begin							
 					if(in_pfw_data_wr == 1'b1)begin
 						delay0       <= in_pfw_data;
 						delay1       <= delay0;
+						
+						if(delay0[95:88] == 8'd4)begin// smid = 4 :pkt form PTP
+							flag    <= 2'h2;
+						end
+						else if(delay0[95:88] == 8'd128)begin//smid = 128 :pkt form LCM
+							flag    <= 2'h1;
+						end
+						else begin
+							flag    <= 2'h0;
+						end
+						
 						if(in_pfw_key[53:6] == direct_mac_addr)begin
 							flag     <= 1'h1;
 							if(in_pfw_key[5:0] == 6'h2)begin//pkt form Local direct
@@ -121,7 +132,6 @@ always @(posedge clk or negedge rst_n) begin
 							end							
 						end
 						else begin
-							flag             <= flag;
 							if((in_pfw_key[5:0] == 6'h2)||(in_pfw_key[5:0] == 6'h3))begin//pkt from port3 and pkt from port2 but SMAC is not port2 local MAC
 							  pfw_state        <= DIC_S;
 							end

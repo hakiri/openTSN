@@ -4,23 +4,23 @@ module Manage_CTRL#(
     input wire clk,
 	input wire rst_n,
 	
-	(*mark_debug="TRUE"*)input cfg_cs_n, //low active
-	(*mark_debug="TRUE"*)output reg cfg_ack_n, //low active
-	(*mark_debug="TRUE"*)input cfg_rw, //0 :write, 1 :read
-	(*mark_debug="TRUE"*)input [31:0] cfg_addr,
-	(*mark_debug="TRUE"*)input [31:0] cfg_wdata,
-	(*mark_debug="TRUE"*)output reg [31:0] cfg_rdata,
+	input cfg_cs_n, //low active
+	output reg cfg_ack_n, //low active
+	input cfg_rw, //0 :write, 1 :read
+	input [31:0] cfg_addr,
+	input [31:0] cfg_wdata,
+	output reg [31:0] cfg_rdata,
 	
-	(*mark_debug="TRUE"*)output reg sync_start,
-	(*mark_debug="TRUE"*)output reg [1:0]device_role,
-	(*mark_debug="TRUE"*)input error,
-	(*mark_debug="TRUE"*)input [47:0]offset,
-	(*mark_debug="TRUE"*)input	[47:0]	temp_cnt,
+	output reg sync_start,
+	output reg [1:0]device_role,
+	input error,
+	input [47:0]offset,
+	input	[47:0]	temp_cnt,
 	input [47:0]rtt_time,
-	(*mark_debug="TRUE"*)output reg [47:0]device_mac,
+	output reg [47:0]device_mac,
 //	output reg [30:0]test_time,
 	input error1,
-	(*mark_debug="TRUE"*)output reg [31:0]sync_cnt,
+	output reg [31:0]sync_cnt,
 	output reg [47:0]device_id
 );
 reg [31:0] address;

@@ -55,8 +55,8 @@ reg     cfifo_wr;
 wire    [7:0]cfifo_rdata;
 reg     cfifo_rd;
 wire    cfifo_empty;   
-(*mark_debug="TRUE"*)wire    cfifo_full; 
-(*mark_debug="TRUE"*)wire    [4:0]cfifo_data_count;
+wire    cfifo_full; 
+wire    [4:0]cfifo_data_count;
 ////////reg////////////
 reg     fifo_flag;     //FIFO initialization completed
 reg     [4:0]fifo_cnt; //FIFO initialization completed,RAM have 16 id 

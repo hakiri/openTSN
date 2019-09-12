@@ -41,7 +41,7 @@ output    wire    out_esw_valid,
 output    wire    out_esw_valid_wr,
 output    wire    [23:0]out_esw_tsn_md,
 output    wire    out_esw_tsn_md_wr,
-(*mark_debug="TRUE"*)input     wire    [4:0]bufm_ID_count,
+input     wire    [4:0]bufm_ID_count,
 
 ////////pkt to GOE //////////////////
 output    wire    [133:0]out_esw2port_data2,

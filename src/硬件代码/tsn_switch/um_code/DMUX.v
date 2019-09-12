@@ -32,7 +32,7 @@ wire parser_alf;
 
 assign parser_alf = rx2parser_data_alf | mux2parser_data_alf;
 assign pktin_ready = ~ parser_alf;
-(*mark_debug="TRUE"*)reg [31:0]ping_count;
+reg [31:0]ping_count;
 
 
 localparam  IDLE_S = 3'd0,

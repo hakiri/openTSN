@@ -6,24 +6,24 @@ module MUX(
 	input wire [133:0] tx2mux_data,
 	input wire tx2mux_data_valid,
 	input wire tx2mux_data_valid_wr,
-	(*mark_debug="TRUE"*)output mux2tx_data_alf,
+	output mux2tx_data_alf,
 	
 	input wire parser2mux_data_wr,
 	input wire [133:0] parser2mux_data,
 	input wire parser2mux_data_valid,
 	input wire parser2mux_data_valid_wr,
-	(*mark_debug="TRUE"*)output mux2parser_data_alf,
+	output mux2parser_data_alf,
 	
 	output reg mux2gpp_data_wr,
 	output reg [133:0] mux2gpp_data,
 	output reg mux2gpp_data_valid,
 	output reg mux2gpp_data_valid_wr,
-	(*mark_debug="TRUE"*)input gpp2mux_data_alf
+	input gpp2mux_data_alf
 	
 
 	
 );
-(*mark_debug="TRUE"*)reg [31:0]mux_out;
+reg [31:0]mux_out;
 always @ (posedge clk or negedge rst_n) begin
     if(rst_n == 1'b0) begin
        mux_out<=32'b0;
@@ -39,7 +39,7 @@ always @ (posedge clk or negedge rst_n) begin
 end
 
 
-(*mark_debug="TRUE"*)reg [31:0]mux_ping;
+reg [31:0]mux_ping;
 reg [10:0]pkt_step;
 always @ (posedge clk or negedge rst_n) begin
     if(rst_n == 1'b0) begin
@@ -83,7 +83,7 @@ reg parser_vfifo_rd;
 wire parser_vfifo_rdata;
 wire parser_vfifo_empty;
 
-(*mark_debug="TRUE"*)reg [1:0] mux_state;
+reg [1:0] mux_state;
 reg [31:0]ping_count;
 assign mux2tx_data_alf = tx_dfifo_usedw[8];
 assign mux2parser_data_alf = parser_dfifo_usedw[8];

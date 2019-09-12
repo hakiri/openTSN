@@ -35,8 +35,8 @@ module	PTP_CTRL(
 	status_ok
 );
 
-(*MARK_DEBUG="TRUE"*) reg [31:0]send_req_cnt;  
-(*MARK_DEBUG="TRUE"*) reg [31:0]send_resq_cnt;  
+reg [31:0]send_req_cnt;  
+reg [31:0]send_resq_cnt;  
        
 always @(posedge clk or negedge reset) begin
    if(reset == 1'b0) begin
@@ -70,11 +70,11 @@ end
 	
 	input 	sync_start;
 	input 	[1:0]device_role;
-	(*MARK_DEBUG="TRUE"*)output  reg error;
+	output  reg error;
 	output 	m_or_s;
 	output	reg	status_ok;
 	
-	(*MARK_DEBUG="TRUE"*)reg [2:0]	ptp_ctrl_state;
+	reg [2:0]	ptp_ctrl_state;
 	parameter	CLOSED_S = 3'd0,
 				RUN_MASTER_STATE = 3'd1,
 				//WAIT_RECV_DREQ_S = 3'd2,
