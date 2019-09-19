@@ -12,7 +12,7 @@
 	sync_type:slave
 	host_id:1
 	sw_mac:00:06:06:00:00:01
-	host_mac:f8:4d:fc:77:21:d9
+	host_mac:12:22:33:44:55:66
 	next_port:1
 	prev_port:0
 }
@@ -21,7 +21,7 @@
 	sync_type:slave
 	host_id:2
 	sw_mac:00:06:06:00:00:02
-	host_mac:00:00:00:00:00:00
+	host_mac:00:00:00:00:00:01
 	next_port:1
 	prev_port:0
 }
@@ -30,7 +30,7 @@
 	sync_type:slave
 	host_id:3
 	sw_mac:00:06:06:00:00:03
-	host_mac:10:c3:7b:23:0d:9e
+	host_mac:f8:4d:fc:77:21:d9
 	next_port:1
 	prev_port:0
 }
@@ -39,7 +39,7 @@
 	sync_type:slave
 	host_id:4
 	sw_mac:00:06:06:00:00:04
-	host_mac:12:22:33:44:55:66
+	host_mac:00:00:00:00:00:00
 	next_port:1
 	prev_port:0
 }
@@ -48,7 +48,7 @@
 	sync_type:slave
 	host_id:5
 	sw_mac:00:06:06:00:00:05
-	host_mac:12:22:33:44:55:68
+	host_mac:10:c3:7b:23:0d:9e
 	next_port:1
 	prev_port:0
 }
