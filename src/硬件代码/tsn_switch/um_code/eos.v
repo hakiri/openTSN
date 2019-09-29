@@ -33,7 +33,8 @@ input	wire			rst_n,
     
 //receive from LCM
 input	wire			 in_eos_time_slot_flag,
-input	wire     [31:0] in_eos_rate_limit,                   
+input	wire     [15:0] in_eos_rate_limit,   
+input	wire     [15:0] in_eos_depth_limit,                  
 //transmit to LCM
 output	wire     [7:0]  out_eos_q0_used_cnt,
 output	wire     [7:0]  out_eos_q1_used_cnt,
@@ -174,7 +175,8 @@ gc gc_inst(
 .rst_n(rst_n),
 //receive from LCM 
 .in_gc_time_slot_flag(in_eos_time_slot_flag),
-.in_gc_rate_limit(in_eos_rate_limit),       
+.in_gc_rate_limit(in_eos_rate_limit),  
+.TB_size(in_eos_depth_limit),     
 //receive from MB 
 .in_gc_md_outport(mb2gc_md_outport),
 .in_gc_fifo_empty(mb2gc_fifo_empty),

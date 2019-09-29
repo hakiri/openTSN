@@ -55,7 +55,7 @@ end
 	input 	status_ok;
 	input 	ts_3_valid;
 	input 	[47:0] ts_3;
-	output	reg	[47:0]	timer;
+	(*MARK_DEBUG="TRUE"*)output	reg	[47:0]	timer;
 	output	reg	send_sync_pkt;
 	output	reg	send_test_pkt;
 	
@@ -66,20 +66,20 @@ end
 	input	ts_4_valid;
 	input	[47:0]	ts_4;
 	output	reg error1;
-	output	reg cyc_init;
+	(*MARK_DEBUG="TRUE"*)output	reg cyc_init;
 	//(*mark_debug="TRUE"*)input	 cyc_init_ack;
-	output	reg	[47:0]	temp_cnt;
+	(*MARK_DEBUG="TRUE"*)output	reg	[47:0]	temp_cnt;
 	input [31:0]sync_cnt;
 	reg [31:0]sync_cmp_cnt;
 	
 	
-	reg [47:0]	ts_2_reg,ts_1_reg,ts_3_reg,ts_4_reg;
-	output reg	[47:0]	offset;
+	(*MARK_DEBUG="TRUE"*)reg [47:0]	ts_2_reg,ts_1_reg,ts_3_reg,ts_4_reg;
+	(*MARK_DEBUG="TRUE"*)output reg	[47:0]	offset;
 	reg	[30:0]	ms_cnt;
 	reg	[16:0]	cyc_cnt;
 	reg			cyc_valid, temp_cnt_valid;
 	reg [1:0]	offset_tag;
-	 reg [47:0]clc_offset;
+	(*MARK_DEBUG="TRUE"*)reg [47:0]clc_offset;
 	reg clc_ok,offset_ok;
 	
 //	reg [47:0]md_timestamp;   

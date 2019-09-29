@@ -85,7 +85,7 @@ always @(posedge clk or negedge rst_n) begin
                 out_qs_md2_wr <= 1'b1;
             end
 			else if(in_qs_md[23:21] == 3'd1)begin
-			    out_qs_md2[19:9] <= in_qs_md[20:9] - 12'd2;        //pkt_length(Byte) - 2 cycle's metadata
+			    out_qs_md2[19:9] <= in_qs_md[20:9] - 12'd32;        //pkt_length(Byte) - 2 cycle's metadata
 			    out_qs_md2[8:0] <= in_qs_md[8:0];
 				out_qs_md2_wr <= 1'b1;
 			end

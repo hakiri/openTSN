@@ -29,20 +29,20 @@ module lreport #(
 	input rst_n,
 
 //um signal 
-	(*MARK_DEBUG="TRUE"*)input in_lr_data_wr,
-	(*MARK_DEBUG="TRUE"*)input [133:0] in_lr_data,
-	(*MARK_DEBUG="TRUE"*)input in_lr_data_valid,
-	(*MARK_DEBUG="TRUE"*)input in_lr_data_valid_wr,
+	input in_lr_data_wr,
+	input [133:0] in_lr_data,
+	input in_lr_data_valid,
+	input in_lr_data_valid_wr,
 
-	(*MARK_DEBUG="TRUE"*)output reg pktin_ready,
-	(*MARK_DEBUG="TRUE"*)input [47:0] precision_time,
+	output reg pktin_ready,
+	input [47:0] precision_time,
 	input [47:0] in_local_mac_id,   //should be changed to [47:0], represents a mac addr.
 
 //lupdate signal 
-	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_wr,
-	(*MARK_DEBUG="TRUE"*)output reg [133:0] out_lr_data,
-	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_valid,
-	(*MARK_DEBUG="TRUE"*)output reg out_lr_data_valid_wr,
+	output reg out_lr_data_wr,
+	output reg [133:0] out_lr_data,
+	output reg out_lr_data_valid,
+	output reg out_lr_data_valid_wr,
 
 	output [47:0] out_local_mac_id,  //should be changed to [47:0], represents a mac addr.
 
@@ -51,7 +51,8 @@ module lreport #(
 //readable & changeable registers and counters
 
 	input direction,
-	input [31:0] token_bucket_para,
+	input [15:0] token_bucket_para,
+	input [15:0] token_bucket_depth,
 	input [47:0] direct_mac_addr,
 	input [31:0]time_slot_period,
 
@@ -90,22 +91,22 @@ localparam cnc_mac_addr = 48'h010203040506;  //CNC鑺傜偣mac鍦板�?
 //parameter time_inteval = 20'hFFFFF;  //鍚屾鍛ㄦ湡�??8ms宸﹀�?  2^20 us
 
 
-(*MARK_DEBUG="TRUE"*)reg [47:0] time_stamp_rec; //record the accurate timestamp.
-(*MARK_DEBUG="TRUE"*)reg report_flag_master;
-(*MARK_DEBUG="TRUE"*)reg report_flag_slave;
+reg [47:0] time_stamp_rec; //record the accurate timestamp.
+reg report_flag_master;
+reg report_flag_slave;
 
 reg beacon_update_slave;
 
 reg [4:0] beacon_report_cycle;
 
 //restore the in_data when needed
-(*MARK_DEBUG="TRUE"*)reg [133:0] lr_data;
-(*MARK_DEBUG="TRUE"*)reg lr_data_wr;
-(*MARK_DEBUG="TRUE"*)reg lr_data_valid;
-(*MARK_DEBUG="TRUE"*)reg lr_data_valid_wr;
+reg [133:0] lr_data;
+reg lr_data_wr;
+reg lr_data_valid;
+reg lr_data_valid_wr;
 
 //lreport state machine
-(*MARK_DEBUG="TRUE"*)reg [2:0] lreport_state;
+reg [2:0] lreport_state;
 reg [15:0] ptp_seq;
 
 assign out_local_mac_id = in_local_mac_id;
@@ -310,7 +311,7 @@ always @(posedge clk or negedge rst_n) begin
 					//beacon field
 					4'd6:begin
 						out_lr_data_wr <= 1'b1;
-						out_lr_data <= {2'b11,4'b0,direct_mac_addr, direction, 15'b0, token_bucket_para,time_slot_period};
+						out_lr_data <= {2'b11,4'b0,direct_mac_addr, direction, 15'b0, token_bucket_depth,token_bucket_para,time_slot_period};
 						out_lr_data_valid <= 1'b0;
 						out_lr_data_valid_wr <= 1'b0;
 					end

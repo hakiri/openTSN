@@ -46,7 +46,8 @@ module lcm #(
 
 //readable & changeable registers and counters
 	output wire out_direction,
-	output wire [31:0] out_token_bucket_para,
+	output wire [15:0] out_token_bucket_para,
+	output wire [15:0] out_token_bucket_depth,
 	output wire [47:0] out_direct_mac_addr,
 
 
@@ -266,6 +267,7 @@ lreport #(
 
 .direction(out_direction),
 .token_bucket_para(out_token_bucket_para),
+.token_bucket_depth(out_token_bucket_depth),
 .direct_mac_addr(out_direct_mac_addr),
 .time_slot_period(time_slot_period),
 
@@ -314,6 +316,7 @@ lupdate #(
 
 .direction(out_direction),
 .token_bucket_para(out_token_bucket_para),
+.token_bucket_depth(out_token_bucket_depth),
 .direct_mac_addr(out_direct_mac_addr),
 .time_slot_period(time_slot_period)
 );

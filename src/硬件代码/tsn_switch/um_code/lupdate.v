@@ -47,9 +47,10 @@ module lupdate #(
 	output reg beacon_update_master,
 
 //changeable registers and counters
-	output reg [31:0] time_slot_period,
+	output reg [15:0] time_slot_period,
 	output reg direction,
-	output reg [31:0] token_bucket_para,
+	output reg [15:0] token_bucket_para,
+	output reg [15:0] token_bucket_depth,
 	output reg [47:0] direct_mac_addr
 );
 
@@ -102,7 +103,8 @@ always @(posedge clk or negedge rst_n) begin
 		lupdate_state <= 3'b0;
 		update_pkt_cnt <= 5'b0;
 		direction <= 1'b0;
-		token_bucket_para <= 32'd10;
+		token_bucket_para <= 16'd10;
+		token_bucket_depth<= 16'd2048;
 		direct_mac_addr <= 48'b0;
 		time_slot_period <= 32'h7;  //reset as 1.024us
 
@@ -192,7 +194,8 @@ always @(posedge clk or negedge rst_n) begin
 					//5th cycle is the executable field. 
 					5'd5:begin
 						direction <= lu_data_2[79];
-						token_bucket_para <= lu_data_2[63:32];
+						token_bucket_para <= lu_data_2[47:32];
+						token_bucket_depth <= lu_data_2[63:48];
 						direct_mac_addr <= lu_data_2[127:80];
 						time_slot_period <= lu_data_2[31:0];
 					end

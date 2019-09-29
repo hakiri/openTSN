@@ -39,12 +39,12 @@ input	wire     [10:0] in_gc_pkt_len,
 
 //receive from LCM
 input	wire            in_gc_time_slot_flag,
-input	wire     [31:0] in_gc_rate_limit,       // =100*8ns(per cycle)*(rate(bps)/8)*(10^-9)= rate/(10Mbps);dd number of token per 800ns(100 cycles); the minimum committed information rate 10Mbps is allowed.
-
+(*MARK_DEBUG="TRUE"*)input	wire     [15:0] in_gc_rate_limit,       // =1000*8ns(per cycle)*(rate(bps)/8)*(10^-9)= rate/(1Mbps);dd number of token per 8000ns(1000 cycles); the minimum committed information rate 1Mbps is allowed.
+(*MARK_DEBUG="TRUE"*)input	wire     [15:0] TB_size,
 //receive from EBM
 input	wire            in_gc_pkt_valid,
 //transmit to EBM
-output	reg             out_gc_bandwidth_discard,       //Judge whether bandwidth reservation traffic is discarded in EBM; high active.
+(*MARK_DEBUG="TRUE"*)output	reg             out_gc_bandwidth_discard,       //Judge whether bandwidth reservation traffic is discarded in EBM; high active.
 
 //receive from UDO
 input	wire      [7:0]  pktout_usedw_0,
@@ -57,20 +57,19 @@ input	wire            in_gc_q2_rden
 
 );
 
-wire [11:0] pkt_len;
-assign pkt_len = {1'b0,in_gc_pkt_len};
+wire [15:0] pkt_len;
+assign pkt_len = {5'b0,in_gc_pkt_len};
 
 //token bucken parameter
-localparam TB_size = 12'h7FF;   //committed burst size is 2047 Byte.
-reg  [11:0] RT;        //remaining tokens
-reg  [11:0] CT;        //consume tokens,1Byte consumes 1 token.
-reg  [6:0]  TB_cnt;    //timer of token bucken
+(*MARK_DEBUG="TRUE"*)reg  [15:0] RT;        //remaining tokens
+(*MARK_DEBUG="TRUE"*)reg  [15:0] CT;        //consume tokens,1Byte consumes 1 token.
+(*MARK_DEBUG="TRUE"*)reg  [11:0]  TB_cnt;    //timer of token bucken
 //************************************************************
 //                   Consume tokens
 //************************************************************
 always@(posedge clk or negedge rst_n) begin
     if(rst_n == 1'b0) begin
-        CT <= 12'd0;
+        CT <= 16'd0;
         out_gc_bandwidth_discard <= 1'b0;		
     end
     else begin
@@ -79,11 +78,11 @@ always@(posedge clk or negedge rst_n) begin
 		    out_gc_bandwidth_discard <= 1'b0;
 		end
 		else if((in_gc_q2_rden == 1'b1) && (RT < pkt_len))begin
-		    CT <= 12'd0;
+		    CT <= 16'd0;
 		    out_gc_bandwidth_discard <= 1'b1;             //discard
 		end
 		else begin
-		    CT <= 12'd0;
+		    CT <= 16'd0;
 		    out_gc_bandwidth_discard <= 1'b0;
 		end
     end
@@ -93,21 +92,21 @@ end
 //************************************************************
 always@(negedge clk or negedge rst_n) begin
     if(rst_n == 1'b0) begin
-        RT <= 12'd0;
-		TB_cnt <= 7'd0;
+        RT <= 16'd0;
+		TB_cnt <= 12'd0;
     end
     else begin
-	    if(TB_cnt >= 7'd99)begin
-		    TB_cnt <= 7'd0;
-			if(RT + in_gc_rate_limit[11:0] - CT <= TB_size)begin
-			    RT <= RT + in_gc_rate_limit[11:0] - CT;
+	    if(TB_cnt >= 12'd999)begin
+		    TB_cnt <= 12'd0;
+			if(RT + in_gc_rate_limit - CT <= TB_size)begin
+			    RT <= RT + in_gc_rate_limit - CT;
 			end
 			else begin
 			    RT <= TB_size;
 			end
 		end
 		else begin
-		    TB_cnt <= TB_cnt + 7'd1;
+		    TB_cnt <= TB_cnt + 12'd1;
 			RT <= RT - CT;
 		end
     end

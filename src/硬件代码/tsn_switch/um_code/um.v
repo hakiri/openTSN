@@ -2,11 +2,11 @@ module um(
 input  wire  clk,
 input  wire  rst_n,
 
-input  wire  [133:0]pktin_data,
-input  wire  pktin_data_wr,
-input  wire  pktin_valid,
-input  wire  pktin_valid_wr,
-output wire  pktin_ready,
+(*MARK_DEBUG="TRUE"*)input  wire  [133:0]pktin_data,
+(*MARK_DEBUG="TRUE"*)input  wire  pktin_data_wr,
+(*MARK_DEBUG="TRUE"*)input  wire  pktin_valid,
+(*MARK_DEBUG="TRUE"*)input  wire  pktin_valid_wr,
+(*MARK_DEBUG="TRUE"*)output wire  pktin_ready,
 
 input  wire  cfg_cs_n, //low active
 output wire  cfg_ack_n, //low active
@@ -113,7 +113,8 @@ wire [7:0]eos_q3_used_cnt;
 wire time_slot_flag;
 wire [63:0]eos_mdin_cnt;
 wire [63:0]eos_mdout_cnt;
-wire [31:0]token_bucket_para;
+wire [15:0]token_bucket_para;
+wire [15:0]token_bucket_depth;
 
 // ebm to goe ///////////
 wire in_goe_data_wr;
@@ -171,6 +172,7 @@ lcm lcm(
 //readable & changeable registers and counters
 .out_direction(direction),
 .out_token_bucket_para(token_bucket_para),
+.out_token_bucket_depth(token_bucket_depth),
 .out_direct_mac_addr(direct_mac_addr),
 
 	//input from esw
@@ -294,6 +296,7 @@ eos eos(
 
 .in_eos_time_slot_flag(time_slot_flag),
 .in_eos_rate_limit(token_bucket_para),
+.in_eos_depth_limit(token_bucket_depth),
 
 .out_eos_q0_used_cnt(eos_q0_used_cnt),
 .out_eos_q1_used_cnt(eos_q1_used_cnt),
