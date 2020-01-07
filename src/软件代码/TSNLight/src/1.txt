@@ -1,0 +1,1021 @@
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# make 数据基础，打印在 Fri Dec 20 06:49:03 2019
+
+# 变量
+
+# 自动
+<D = $(patsubst %/,%,$(dir $<))
+# 自动
+?F = $(notdir $?)
+# 环境
+PAPERSIZE = a4
+# 环境
+DESKTOP_SESSION = ubuntu
+# 默认
+.SHELLFLAGS := -c
+# 环境
+XDG_SESSION_TYPE = x11
+# 环境
+UPSTART_INSTANCE = 
+# 默认
+CWEAVE = cweave
+# 自动
+?D = $(patsubst %/,%,$(dir $?))
+# 自动
+@D = $(patsubst %/,%,$(dir $@))
+# 环境
+XAUTHORITY = /home/joejiang/.Xauthority
+# 环境
+GDMSESSION = ubuntu
+# 环境
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /mnt/hgfs/tsn_controller-9.16-xiugai/tsn_controller/src
+# makefile
+SHELL = /bin/sh
+# 环境
+JRE_HOME = /usr/jdk1.8.0_181/jre
+# 环境
+GDM_LANG = zh_CN
+# 环境
+VTE_VERSION = 4205
+# 环境
+_ = /usr/bin/make
+# 默认
+PREPROCESS.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -F
+# 默认
+LINK.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 环境
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg
+# 默认
+OUTPUT_OPTION = -o $@
+# 默认
+COMPILE.cpp = $(COMPILE.cc)
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# 自动
+@F = $(notdir $@)
+# 环境
+IM_CONFIG_PHASE = 1
+# 环境
+GNUMAKEFLAGS := 
+# 环境
+SESSIONTYPE = gnome-session
+# 环境
+MAKELEVEL := 0
+# 环境
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# 环境
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# 环境
+DBUS_SESSION_BUS_ADDRESS = unix:abstract=/tmp/dbus-IhJQ2vm6hB
+# 默认
+CC = cc
+# 默认
+CHECKOUT,v = +$(if $(wildcard $@),,$(CO) $(COFLAGS) $< $@)
+# 环境
+CLUTTER_IM_MODULE = xim
+# 环境
+LESSOPEN = | /usr/bin/lesspipe %s
+# 环境
+LC_NAME = zh_CN.UTF-8
+# 默认
+CPP = $(CC) -E
+# 默认
+LINK.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 环境
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
+# 默认
+LEX = lex
+# 默认
+MAKE_HOST := x86_64-pc-linux-gnu
+# 环境
+PATH = /home/joejiang/CodeSourcery/Sourcery_CodeBench_Lite_for_Xilinx_GNU_Linux/bin:/home/joejiang/CodeSourcery/Sourcery_CodeBench_Lite_for_Xilinx_GNU_Linux/bin:/usr/jdk1.8.0_181/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+# 默认
+LD = ld
+# 默认
+TEXI2DVI = texi2dvi
+# 环境
+GPG_AGENT_INFO = /home/joejiang/.gnupg/S.gpg-agent:0:1
+# 默认
+YACC = yacc
+# 环境
+UPSTART_JOB = unity-settings-daemon
+# 默认
+COMPILE.mod = $(M2C) $(M2FLAGS) $(MODFLAGS) $(TARGET_ARCH)
+# 环境
+XDG_RUNTIME_DIR = /run/user/1000
+# 默认
+ARFLAGS = rv
+# 默认
+LINK.r = $(FC) $(FFLAGS) $(RFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 环境
+WINDOWID = 27262986
+# 默认
+COMPILE.f = $(FC) $(FFLAGS) $(TARGET_ARCH) -c
+# 默认
+LINT.c = $(LINT) $(LINTFLAGS) $(CPPFLAGS) $(TARGET_ARCH)
+# 默认
+YACC.m = $(YACC) $(YFLAGS)
+# 默认
+LINT = lint
+# 默认
+LINK.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 默认
+YACC.y = $(YACC) $(YFLAGS)
+# 默认
+AR = ar
+# 环境
+LC_NUMERIC = zh_CN.UTF-8
+# 默认
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# 默认
+TANGLE = tangle
+# 环境
+XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/joejiang
+# 环境
+LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+# 环境
+JOB = gnome-session
+# 环境
+XDG_SESSION_DESKTOP = ubuntu
+# 环境
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# 默认
+GET = get
+# 自动
+%F = $(notdir $%)
+# 环境
+DISPLAY = :0
+# 默认
+COMPILE.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# 默认
+CTANGLE = ctangle
+# 环境
+GTK_IM_MODULE = ibus
+# 默认
+.LIBPATTERNS = lib%.so lib%.a
+# 默认
+LINK.C = $(LINK.cc)
+# 环境
+PWD = /mnt/hgfs/tsn_controller-9.16-xiugai/tsn_controller/src
+# 默认
+LINK.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# 环境
+XDG_SEAT = seat0
+# 默认
+PREPROCESS.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -F
+# 默认
+LINK.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 环境
+GTK_MODULES = gail:atk-bridge:unity-gtk-module
+# 默认
+LINK.s = $(CC) $(ASFLAGS) $(LDFLAGS) $(TARGET_MACH)
+# 环境
+HOME = /home/joejiang
+# 环境
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# 自动
+-*-command-variables-*- := TOPOLOGY_TYPE=1
+# 环境
+LOGNAME = joejiang
+# 环境
+QT_LINUX_ACCESSIBILITY_ALWAYS_ON = 1
+# 自动
++F = $(notdir $+)
+# 默认
+M2C = m2c
+# 默认
+CO = co
+# 默认
+MAKE_VERSION := 4.1
+# 环境
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# 自动
+^D = $(patsubst %/,%,$(dir $^))
+# 环境
+XDG_VTNR = 7
+# 环境
+LC_TIME = zh_CN.UTF-8
+# 默认
+COMPILE.m = $(OBJC) $(OBJCFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# 默认
+MAKE = $(MAKE_COMMAND)
+# 默认
+MAKECMDGOALS := CNC
+# 环境
+QT_IM_MODULE = ibus
+# 环境
+SHLVL = 1
+# 默认
+AS = as
+# 命令行
+TOPOLOGY_TYPE = 1
+# 默认
+PREPROCESS.S = $(CC) -E $(CPPFLAGS)
+# 环境
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# 环境
+JAVA_HOME = /usr/jdk1.8.0_181
+# 环境
+COMPIZ_CONFIG_PROFILE = ubuntu
+# 默认
+COMPILE.p = $(PC) $(PFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# 环境
+XDG_SESSION_ID = c2
+# 环境
+USER = joejiang
+# 默认
+FC = f77
+# 环境
+LC_MONETARY = zh_CN.UTF-8
+# makefile
+.DEFAULT_GOAL := 
+# 环境
+XDG_CURRENT_DESKTOP = Unity
+# 环境
+CLASSPATH = .:/usr/jdk1.8.0_181/lib:/usr/jdk1.8.0_181/jre/lib
+# 环境
+UPSTART_EVENTS = started starting
+# 自动
+%D = $(patsubst %/,%,$(dir $%))
+# 环境
+GNOME_KEYRING_PID = 
+# 环境
+LC_TELEPHONE = zh_CN.UTF-8
+# 默认
+WEAVE = weave
+# 默认
+MAKE_COMMAND := make
+# 默认
+LINK.cpp = $(LINK.cc)
+# 默认
+F77 = $(FC)
+# 环境
+OLDPWD = /mnt/hgfs/tsn_controller-9.16-xiugai/tsn_controller
+# 默认
+.VARIABLES := 
+# 默认
+PC = pc
+# 自动
+*F = $(notdir $*)
+# 环境
+LANGUAGE = zh_CN:en
+# 环境
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
+# 默认
+COMPILE.def = $(M2C) $(M2FLAGS) $(DEFFLAGS) $(TARGET_ARCH)
+# 环境
+GNOME_KEYRING_CONTROL = 
+# 默认
+RM = rm -f
+# makefile
+MAKEFLAGS = p
+# 环境
+MFLAGS = -p
+# 自动
+*D = $(patsubst %/,%,$(dir $*))
+# 默认
+LEX.l = $(LEX) $(LFLAGS) -t
+# 默认
+LEX.m = $(LEX) $(LFLAGS) -t
+# 自动
++D = $(patsubst %/,%,$(dir $+))
+# 默认
+COMPILE.r = $(FC) $(FFLAGS) $(RFLAGS) $(TARGET_ARCH) -c
+# 环境
+LC_PAPER = zh_CN.UTF-8
+# 环境
+GTK2_MODULES = overlay-scrollbar
+# 环境
+QT_ACCESSIBILITY = 1
+# 环境
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# 环境
+CROSS_COMPILE = arm-xilinx-linux-gnueabi-
+# 默认
+MAKEFILES := 
+# 环境
+UPSTART_SESSION = unix:abstract=/com/ubuntu/upstart-session/1000/1535
+# 默认
+COMPILE.cc = $(CXX) $(CXXFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# 自动
+<F = $(notdir $<)
+# 默认
+CXX = g++
+# 环境
+LC_MEASUREMENT = zh_CN.UTF-8
+# 环境
+INSTANCE = Unity
+# 默认
+COFLAGS = 
+# 默认
+COMPILE.C = $(COMPILE.cc)
+# 环境
+QT4_IM_MODULE = xim
+# 自动
+^F = $(notdir $^)
+# 默认
+COMPILE.S = $(CC) $(ASFLAGS) $(CPPFLAGS) $(TARGET_MACH) -c
+# 默认
+LINK.F = $(FC) $(FFLAGS) $(CPPFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 默认
+SUFFIXES := .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+# 默认
+COMPILE.c = $(CC) $(CFLAGS) $(CPPFLAGS) $(TARGET_ARCH) -c
+# 环境
+LIBGL_ALWAYS_SOFTWARE = 1
+# 默认
+COMPILE.s = $(AS) $(ASFLAGS) $(TARGET_MACH)
+# 默认
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# 环境
+LC_IDENTIFICATION = zh_CN.UTF-8
+# 默认
+.RECIPEPREFIX := 
+# 默认
+MAKEINFO = makeinfo
+# 默认
+MAKE_TERMERR := /dev/pts/17
+# 默认
+OBJC = cc
+# 环境
+LC_ADDRESS = zh_CN.UTF-8
+# 默认
+LINK.f = $(FC) $(FFLAGS) $(LDFLAGS) $(TARGET_ARCH)
+# 默认
+TEX = tex
+# 环境
+LANG = zh_CN.UTF-8
+# 环境
+TERM = xterm-256color
+# 默认
+F77FLAGS = $(FFLAGS)
+# 默认
+LINK.o = $(CC) $(LDFLAGS) $(TARGET_ARCH)
+# 变量的杂凑表状态:
+# 负载=175/1024=17%, 重新杂凑=0, 碰撞=24/190=13%
+
+# Pattern-specific 变量值
+
+# 没有 pattern-specific 变量的值。
+
+# 目录
+
+# . (设备 38，i-节点 234)： 31 文件， 无 不可能.
+
+# 31 文件， 无 不可能在 1 目录中。
+
+# 隐含规则
+
+# 没有隐含规则。
+
+# 文件
+
+# 不是一个目标：
+.web.p:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(TANGLE) $<
+
+# 不是一个目标：
+.l.r:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LEX.l) $< > $@ 
+	 mv -f lex.yy.r $@
+
+# 不是一个目标：
+.dvi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.ym:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.f.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.f) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.l:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.m:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.m) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.ln:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.o) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.y:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.def.sym:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.def) -o $@ $<
+
+# 不是一个目标：
+.p.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.p) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.p:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.p) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.txinfo.dvi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# 不是一个目标：
+.a:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.yl:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.l.ln:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	@$(RM) $*.c
+	 $(LEX.l) $< > $*.c
+	$(LINT.c) -i $*.c -o $@
+	 $(RM) $*.c
+
+# 不是一个目标：
+.F.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.F) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.texi.info:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# 不是一个目标：
+.w.c:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(CTANGLE) $< - $@
+
+# 不是一个目标：
+.texi.dvi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# 不是一个目标：
+.ch:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.m.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.m) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.cc:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.cc) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.cc.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.def:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.SUFFIXES: .out .a .ln .o .c .cc .C .cpp .p .f .F .m .r .y .l .ym .yl .s .S .mod .sym .def .h .info .dvi .tex .texinfo .texi .txinfo .w .ch .web .sh .elc .el
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.c.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.c) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.r.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.r) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.r:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.r) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.ym.m:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(YACC.m) $< 
+	 mv -f y.tab.c $@
+
+# 不是一个目标：
+.y.ln:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(YACC.y) $< 
+	 $(LINT.c) -C$* y.tab.c 
+	 $(RM) y.tab.c
+
+# 不是一个目标：
+makefile:
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.cpp:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.cpp) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.elc:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.l.c:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	@$(RM) $@ 
+	 $(LEX.l) $< > $@
+
+# 不是一个目标：
+.out:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.C:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.C) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.r.f:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(PREPROCESS.r) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.S:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.S) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.texinfo.info:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# 不是一个目标：
+.c:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.c) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.w.tex:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(CWEAVE) $< - $@
+
+# 不是一个目标：
+.c.ln:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINT.c) -C$* $<
+
+# 不是一个目标：
+.s.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.s) -o $@ $<
+
+# 不是一个目标：
+.s:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.s) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.texinfo.dvi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(TEXI2DVI) $(TEXI2DVI_FLAGS) $<
+
+# 不是一个目标：
+.el:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.lm.m:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	@$(RM) $@ 
+	 $(LEX.m) $< > $@
+
+# 不是一个目标：
+.y.c:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(YACC.y) $< 
+	 mv -f y.tab.c $@
+
+# 不是一个目标：
+.web.tex:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(WEAVE) $<
+
+# 不是一个目标：
+.texinfo:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.DEFAULT:
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.h:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.tex.dvi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(TEX) $<
+
+# 不是一个目标：
+.cpp.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.cpp) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+CNC:
+#  Command line target.
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.C.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.C) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.texi:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.txinfo:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.tex:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.txinfo.info:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(MAKEINFO) $(MAKEINFO_FLAGS) $< -o $@
+
+# 不是一个目标：
+.sh:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	cat $< >$@ 
+	 chmod a+x $@
+
+# 不是一个目标：
+.S.s:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(PREPROCESS.S) $< > $@
+
+# 不是一个目标：
+.mod:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.mod) -o $@ -e $@ $^
+
+# 不是一个目标：
+.mod.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.mod) -o $@ $<
+
+# 不是一个目标：
+.F.f:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(PREPROCESS.F) $(OUTPUT_OPTION) $<
+
+# 不是一个目标：
+.w:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.S.o:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(COMPILE.S) -o $@ $<
+
+# 不是一个目标：
+.F:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.F) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.web:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.sym:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 不是一个目标：
+.f:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+#  recipe to execute (内置)：
+	$(LINK.f) $^ $(LOADLIBES) $(LDLIBS) -o $@
+
+# 不是一个目标：
+.info:
+#  Builtin rule
+#  对隐含规则的搜索尚未完成。
+#  从不检查修改时间。
+#  文件尚未被更新。
+
+# 文件杂凑表状态:
+# 负载=74/1024=7%, 重新杂凑=0, 碰撞=34/124=27%
+# VPATH 搜索路径
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 106 / storage = 799 B / avg = 7 B
+# current buf: size = 8162 B / used = 799 B / count = 106 / avg = 7 B
+
+# strcache performance: lookups = 124 / hit rate = 14%
+# hash-table stats:
+# 负载=106/8192=1%, 重新杂凑=0, 碰撞=14/124=11%
+# 在 Fri Dec 20 06:49:03 2019
+ 上完成 make 数据基础

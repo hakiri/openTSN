@@ -1,0 +1,1600 @@
+TSN-INFO:Conncet controller[tcp: 192.168.50.11: 8099]!
+TSN-INFO:Conncet controller[tcp: 192.168.50.11: 8099] successfully!
+TSN-INFO:Open topology file successfully!
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:0
+TSN-INFO:line content: 	sync_type:slave
+TSN-INFO:sw[0] is slave!
+TSN-INFO:line content: 	host_id:6
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:03
+TSN-INFO:line content: 	host_mac:01:02:03:04:05:06
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }
+TSN-INFO:sw_id: 0
+TSN-INFO:host_id: 6
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: 1
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:1
+TSN-INFO:line content: 	sync_type:slave
+TSN-INFO:sw[1] is slave!
+TSN-INFO:line content: 	host_id:7
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:04
+TSN-INFO:line content: 	host_mac:f8:4d:fc:77:21:d9
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }
+TSN-INFO:sw_id: 1
+TSN-INFO:host_id: 7
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: f8
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:2
+TSN-INFO:line content: 	sync_type:slave
+TSN-INFO:sw[2] is slave!
+TSN-INFO:line content: 	host_id:8
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:05
+TSN-INFO:line content: 	host_mac:61:55:44:33:22:11
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }
+TSN-INFO:sw_id: 2
+TSN-INFO:host_id: 8
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: 61
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:3
+TSN-INFO:line content: 	sync_type:master
+TSN-INFO:sw[3] is master!
+TSN-INFO:line content: 	host_id:9
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:00
+TSN-INFO:line content: 	host_mac:8c:16:45:49:27:b0
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }
+TSN-INFO:sw_id: 3
+TSN-INFO:host_id: 9
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: 8c
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:4
+TSN-INFO:line content: 	sync_type:slave
+TSN-INFO:sw[4] is slave!
+TSN-INFO:line content: 	host_id:10
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:01
+TSN-INFO:line content: 	host_mac:00:0a:35:00:1e:6f
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }
+TSN-INFO:sw_id: 4
+TSN-INFO:host_id: 10
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: 0
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:line content: {
+TSN-INFO:Find a new node!
+TSN-INFO:line content: 	sw_id:5
+TSN-INFO:line content: 	sync_type:slave
+TSN-INFO:sw[5] is slave!
+TSN-INFO:line content: 	host_id:11
+TSN-INFO:line content: 	sw_mac:00:06:06:00:00:02
+TSN-INFO:line content: 	host_mac:00:00:00:00:00:00
+TSN-INFO:line content: 	next_port:1
+TSN-INFO:line content: 	prev_port:0
+TSN-INFO:line content: }TSN-INFO:sw_id: 5
+TSN-INFO:host_id: 11
+TSN-INFO:sw_mac: 0
+TSN-INFO:host_mac: 0
+TSN-INFO:next_port: 1
+TSN-INFO:prev_port: 0
+TSN-INFO:build topology json len: 995, info: [{"sw_id":"0","sync_type":"slave","host_id":"6","sw_mac":"0:6:6:0:0:3","host_mac":"1:2:3:4:5:6","next_sw_id":"1","prev_sw_id":"5","next_port":"1","prev_port":"0"},{"sw_id":"1","sync_type":"slave","host_id":"7","sw_mac":"0:6:6:0:0:4","host_mac":"f8:4d:fc:77:21:d9","next_sw_id":"2","prev_sw_id":"0","next_port":"1","prev_port":"0"},{"sw_id":"2","sync_type":"slave","host_id":"8","sw_mac":"0:6:6:0:0:5","host_mac":"61:55:44:33:22:11","next_sw_id":"3","prev_sw_id":"1","next_port":"1","prev_port":"0"},{"sw_id":"3","sync_type":"master","host_id":"9","sw_mac":"0:6:6:0:0:0","host_mac":"8c:16:45:49:27:b0","next_sw_id":"4","prev_sw_id":"2","next_port":"1","prev_port":"0"},{"sw_id":"4","sync_type":"slave","host_id":"a","sw_mac":"0:6:6:0:0:1","host_mac":"0:a:35:0:1e:6f","next_sw_id":"5","prev_sw_id":"3","next_port":"1","prev_port":"0"},{"sw_id":"5","sync_type":"slave","host_id":"b","sw_mac":"0:6:6:0:0:2","host_mac":"0:0:0:0:0:0","next_sw_id":"0","prev_sw_id":"4","next_port":"1","prev_port":"0"}]
+TSN-INFO:send packet to controller, len is: 999!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0x28488
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 00 03 E7 5B 7B 22 73 77 5F 69 64 22 3A 22 30 
+0010: 22 2C 22 73 79 6E 63 5F 74 79 70 65 22 3A 22 73 
+0020: 6C 61 76 65 22 2C 22 68 6F 73 74 5F 69 64 22 3A 
+0030: 22 36 22 2C 22 73 77 5F 6D 61 63 22 3A 22 30 3A 
+0040: 36 3A 36 3A 30 3A 30 3A 33 22 2C 22 68 6F 73 74 
+0050: 5F 6D 61 63 22 3A 22 31 3A 32 3A 33 3A 34 3A 35 
+0060: 3A 36 22 2C 22 6E 65 78 74 5F 73 77 5F 69 64 22 
+0070: 3A 22 31 22 2C 22 70 72 65 76 5F 73 77 5F 69 64 
+0080: 22 3A 22 35 22 2C 22 6E 65 78 74 5F 70 6F 72 74 
+0090: 22 3A 22 31 22 2C 22 70 72 65 76 5F 70 6F 72 74 
+00A0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+00B0: 22 31 22 2C 22 73 79 6E 63 5F 74 79 70 65 22 3A 
+00C0: 22 73 6C 61 76 65 22 2C 22 68 6F 73 74 5F 69 64 
+00D0: 22 3A 22 37 22 2C 22 73 77 5F 6D 61 63 22 3A 22 
+00E0: 30 3A 36 3A 36 3A 30 3A 30 3A 34 22 2C 22 68 6F 
+00F0: 73 74 5F 6D 61 63 22 3A 22 66 38 3A 34 64 3A 66 
+0100: 63 3A 37 37 3A 32 31 3A 64 39 22 2C 22 6E 65 78 
+0110: 74 5F 73 77 5F 69 64 22 3A 22 32 22 2C 22 70 72 
+0120: 65 76 5F 73 77 5F 69 64 22 3A 22 30 22 2C 22 6E 
+0130: 65 78 74 5F 70 6F 72 74 22 3A 22 31 22 2C 22 70 
+0140: 72 65 76 5F 70 6F 72 74 22 3A 22 30 22 7D 2C 7B 
+0150: 22 73 77 5F 69 64 22 3A 22 32 22 2C 22 73 79 6E 
+0160: 63 5F 74 79 70 65 22 3A 22 73 6C 61 76 65 22 2C 
+0170: 22 68 6F 73 74 5F 69 64 22 3A 22 38 22 2C 22 73 
+0180: 77 5F 6D 61 63 22 3A 22 30 3A 36 3A 36 3A 30 3A 
+0190: 30 3A 35 22 2C 22 68 6F 73 74 5F 6D 61 63 22 3A 
+01A0: 22 36 31 3A 35 35 3A 34 34 3A 33 33 3A 32 32 3A 
+01B0: 31 31 22 2C 22 6E 65 78 74 5F 73 77 5F 69 64 22 
+01C0: 3A 22 33 22 2C 22 70 72 65 76 5F 73 77 5F 69 64 
+01D0: 22 3A 22 31 22 2C 22 6E 65 78 74 5F 70 6F 72 74 
+01E0: 22 3A 22 31 22 2C 22 70 72 65 76 5F 70 6F 72 74 
+01F0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+0200: 22 33 22 2C 22 73 79 6E 63 5F 74 79 70 65 22 3A 
+0210: 22 6D 61 73 74 65 72 22 2C 22 68 6F 73 74 5F 69 
+0220: 64 22 3A 22 39 22 2C 22 73 77 5F 6D 61 63 22 3A 
+0230: 22 30 3A 36 3A 36 3A 30 3A 30 3A 30 22 2C 22 68 
+0240: 6F 73 74 5F 6D 61 63 22 3A 22 38 63 3A 31 36 3A 
+0250: 34 35 3A 34 39 3A 32 37 3A 62 30 22 2C 22 6E 65 
+0260: 78 74 5F 73 77 5F 69 64 22 3A 22 34 22 2C 22 70 
+0270: 72 65 76 5F 73 77 5F 69 64 22 3A 22 32 22 2C 22 
+0280: 6E 65 78 74 5F 70 6F 72 74 22 3A 22 31 22 2C 22 
+0290: 70 72 65 76 5F 70 6F 72 74 22 3A 22 30 22 7D 2C 
+02A0: 7B 22 73 77 5F 69 64 22 3A 22 34 22 2C 22 73 79 
+02B0: 6E 63 5F 74 79 70 65 22 3A 22 73 6C 61 76 65 22 
+02C0: 2C 22 68 6F 73 74 5F 69 64 22 3A 22 61 22 2C 22 
+02D0: 73 77 5F 6D 61 63 22 3A 22 30 3A 36 3A 36 3A 30 
+02E0: 3A 30 3A 31 22 2C 22 68 6F 73 74 5F 6D 61 63 22 
+02F0: 3A 22 30 3A 61 3A 33 35 3A 30 3A 31 65 3A 36 66 
+0300: 22 2C 22 6E 65 78 74 5F 73 77 5F 69 64 22 3A 22 
+0310: 35 22 2C 22 70 72 65 76 5F 73 77 5F 69 64 22 3A 
+0320: 22 33 22 2C 22 6E 65 78 74 5F 70 6F 72 74 22 3A 
+0330: 22 31 22 2C 22 70 72 65 76 5F 70 6F 72 74 22 3A 
+0340: 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 22 35 
+0350: 22 2C 22 73 79 6E 63 5F 74 79 70 65 22 3A 22 73 
+0360: 6C 61 76 65 22 2C 22 68 6F 73 74 5F 69 64 22 3A 
+0370: 22 62 22 2C 22 73 77 5F 6D 61 63 22 3A 22 30 3A 
+0380: 36 3A 36 3A 30 3A 30 3A 32 22 2C 22 68 6F 73 74 
+0390: 5F 6D 61 63 22 3A 22 30 3A 30 3A 30 3A 30 3A 30 
+03A0: 3A 30 22 2C 22 6E 65 78 74 5F 73 77 5F 69 64 22 
+03B0: 3A 22 30 22 2C 22 70 72 65 76 5F 73 77 5F 69 64 
+03C0: 22 3A 22 34 22 2C 22 6E 65 78 74 5F 70 6F 72 74 
+03D0: 22 3A 22 31 22 2C 22 70 72 65 76 5F 70 6F 72 74 
+03E0: 22 3A 22 30 22 7D 5D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 0
+TSN-INFO:sw_id 1
+TSN-INFO:host_id 6
+TSN-INFO:sw_mac 0:6:6:0:0:3
+TSN-INFO:host_mac 1:2:3:4:5:6
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 1
+TSN-INFO:sw_id 1
+TSN-INFO:host_id 7
+TSN-INFO:sw_mac 0:6:6:0:0:4
+TSN-INFO:host_mac f8:4d:fc:77:21:d9
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 2
+TSN-INFO:sw_id 1
+TSN-INFO:host_id 8
+TSN-INFO:sw_mac 0:6:6:0:0:5
+TSN-INFO:host_mac 61:55:44:33:22:11
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 3
+TSN-INFO:sw_id 0
+TSN-INFO:host_id 9
+TSN-INFO:sw_mac 0:6:6:0:0:0
+TSN-INFO:host_mac 8c:16:45:49:27:b0
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 4
+TSN-INFO:sw_id 1
+TSN-INFO:host_id 10
+TSN-INFO:sw_mac 0:6:6:0:0:1
+TSN-INFO:host_mac 0:a:35:0:1e:6f
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:*************************************************
+TSN-INFO:sw_id 5
+TSN-INFO:sw_id 1
+TSN-INFO:host_id 11
+TSN-INFO:sw_mac 0:6:6:0:0:2
+TSN-INFO:host_mac 0:0:0:0:0:0
+TSN-INFO:prev_port 0
+TSN-INFO:next_port 1
+TSN-INFO:*************************************************
+TSN-INFO:cur_num = 6
+TSN-INFO:*************************************************
+TSN-INFO:cur_num 6
+TSN-INFO:sw id: 0
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:sw id: 1
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:sw id: 2
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:sw id: 3
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:sw id: 4
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:sw id: 5
+TSN-INFO:total_bd: 1000, free_bd: 1000, used_bd: 0, tb_bd: 0
+TSN-INFO:total_len: 16, free_len: 16, used_len: 0
+TSN-INFO:slot size: 250
+TSN-INFO:*************************************************
+TSN-INFO:Open flow reserve file successfully!
+TSN-INFO:line content: {
+TSN-INFO:Find a new flow!
+TSN-INFO:line content: 	type:tsn
+TSN-INFO:Find TSN flow!
+TSN-INFO:line content: 	flow_id:0
+TSN-INFO:line content: 	src_mac:12:22:33:44:55:66
+TSN-INFO:line content: 	dst_mac:00:00:00:00:00:00
+TSN-INFO:line content: 	priority:7
+TSN-INFO:line content: 	interval:1000
+TSN-INFO:line content: 	pkt_num:1
+TSN-INFO:line content: 	pkt_size:1000
+TSN-INFO:line content: 	latency: 100000
+TSN-INFO:line content: }
+TSN-INFO:cur index: 0
+TSN-INFO:flow id: 0
+TSN-INFO:src mac: 12:22
+TSN-INFO:dst mac: 0:22
+TSN-INFO:pkt num: 1
+TSN-INFO:interval: 1000
+TSN-INFO:line content: {
+TSN-INFO:Find a new flow!
+TSN-INFO:line content: 	type:bd
+TSN-INFO:line content: 	flow_id:0
+TSN-INFO:line content: 	src_mac:8c:16:45:49:27:b0
+TSN-INFO:line content: 	dst_mac:12:22:33:44:55:66
+TSN-INFO:line content: 	priority:4
+TSN-INFO:line content: 	bandwidth:10
+TSN-INFO:line content: }TSN-INFO:cur index: 0
+TSN-INFO:src mac: 66
+TSN-INFO:dst mac: 0
+TSN-INFO:bandwidth: 10
+fastU->REG Version:20190404,OpenBox HW Version:2020180822
+fastU->REG Version:20190404,OpenBox HW Version:2020180822
+fastU->Register UA to FAST Kernel! Wait Reply......
+fastU->UA->pid:971,mid:150,Register OK!
+fastU->libua version:20190404
+TSN-INFO:ptp.dst_macfffffffff: 0:6:6:0:0:3
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0x27ae0
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: D8 DA E8 B6 D8 DA EA B6 D8 7A 05 00 D0 70 00 00 
+0010: 00 00 00 00 00 00 00 00 18 7B 02 00 00 00 00 00 
+0020: 00 06 06 00 00 03 01 02 03 04 05 06 88 F7 0F 00 
+0030: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0050: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0060: 01 02 03 04 05 06 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:send success!!!
+fastU->fast_ua_recv......
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 1F 32 2B 26 00 00 04 00 B4 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 03 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 3B 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: 01 02 03 04 05 06 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 43 7A BE 00 00 00 00 04 43 7A AD 
+0080: 03 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 43 72 37 00 00 00 00 04 43 72 37 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:0!
+TSN-INFO:recv_time:640365087, trans_clock: 4251398048237748224
+TSN-INFO:Could not find node, Create one!
+TSN-INFO:s_list size: 1
+TSN-INFO:ptp from switch, sw num: 1
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b321f
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: EB 32 2B 26 00 00 04 00 B5 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 02 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 C6 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 D1 EC E0 00 00 00 00 03 D1 EC E0 
+0080: 02 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D1 EC E0 00 00 00 00 03 D1 EC E0 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:5!
+TSN-INFO:recv_time:640365291, trans_clock: -4179340454199820288
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 2
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b32eb
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: B7 33 2B 26 00 00 04 00 B6 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 01 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 51 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: 00 0A 35 00 1E 6F 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 E4 79 65 00 00 00 00 03 D3 74 22 
+0080: 01 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D3 6D 4A 00 00 00 00 03 D3 6D 4A 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:4!
+TSN-INFO:recv_time:640365495, trans_clock: 5836946592048873472
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 3
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b33b7
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 00 36 2B 26 00 00 04 00 B7 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 00 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 DC 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: 8C 16 45 49 27 B0 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 45 CC 92 00 00 00 00 04 45 A6 CC 
+0080: 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 45 A0 2D 00 00 00 00 04 45 A0 2D 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:3!
+TSN-INFO:recv_time:640366080, trans_clock: -2593791910388695040
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 4
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b3600
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 4A 38 2B 26 00 00 04 00 B8 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 05 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 67 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: 61 55 44 33 22 11 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 B6 E9 60 00 00 00 00 04 B6 CA B2 
+0080: 05 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 B6 CA B2 00 00 00 00 04 B6 CA B2 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:2!
+TSN-INFO:recv_time:640366666, trans_clock: 7422495135859998720
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 5
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b384a
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 15 39 2B 26 00 00 04 00 B9 07 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 04 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 F2 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6E 00 00 
+0050: 00 00 00 00 01 6E 00 01 00 00 00 00 00 00 00 00 
+0060: F8 4D FC 77 21 D9 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 B6 2A 1F 00 00 00 00 04 B6 2A 1F 
+0080: 04 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 B6 2A 1F 00 00 00 00 04 B6 2A 1F 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:1!
+TSN-INFO:recv_time:640366869, trans_clock: -1008243366577569792
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 6
+TSN-INFO:cur sw num is equal to node num: start to compute sync info
+TSN-INFO:build sync json len: 526, info: {"seq":"0","sync_state":[{"device_type":"switch","device_id":"fffffc1f","time_offset":"a100fffffffffc1f"},{"device_type":"switch","device_id":"fffffceb","time_offset":"1600fffffffffceb"},{"device_type":"switch","device_id":"0000024a","time_offset":"74ff00000000024a"},{"device_type":"switch","device_id":"3","time_offset":"0"},{"device_type":"switch","device_id":"fffffdb7","time_offset":"8afffffffffffdb7"},{"device_type":"switch","device_id":"fffffceb","time_offset":"1600fffffffffceb"}],"sync_precision":"a100fffffffffc1f"}
+TSN-INFO:send packet to controller, len is: 530!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4401bc0
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 03 02 12 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 73 79 6E 63 5F 73 74 61 74 65 22 3A 5B 7B 22 64 
+0020: 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 
+0030: 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 
+0040: 3A 22 66 66 66 66 66 63 31 66 22 2C 22 74 69 6D 
+0050: 65 5F 6F 66 66 73 65 74 22 3A 22 61 31 30 30 66 
+0060: 66 66 66 66 66 66 66 66 63 31 66 22 7D 2C 7B 22 
+0070: 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 
+0080: 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 
+0090: 22 3A 22 66 66 66 66 66 63 65 62 22 2C 22 74 69 
+00A0: 6D 65 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 
+00B0: 66 66 66 66 66 66 66 66 66 63 65 62 22 7D 2C 7B 
+00C0: 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 
+00D0: 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 
+00E0: 64 22 3A 22 30 30 30 30 30 32 34 61 22 2C 22 74 
+00F0: 69 6D 65 5F 6F 66 66 73 65 74 22 3A 22 37 34 66 
+0100: 66 30 30 30 30 30 30 30 30 30 32 34 61 22 7D 2C 
+0110: 7B 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 
+0120: 73 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 
+0130: 69 64 22 3A 22 33 22 2C 22 74 69 6D 65 5F 6F 66 
+0140: 66 73 65 74 22 3A 22 30 22 7D 2C 7B 22 64 65 76 
+0150: 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 63 
+0160: 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 22 
+0170: 66 66 66 66 66 64 62 37 22 2C 22 74 69 6D 65 5F 
+0180: 6F 66 66 73 65 74 22 3A 22 38 61 66 66 66 66 66 
+0190: 66 66 66 66 66 66 64 62 37 22 7D 2C 7B 22 64 65 
+01A0: 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 
+01B0: 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 
+01C0: 22 66 66 66 66 66 63 65 62 22 2C 22 74 69 6D 65 
+01D0: 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 66 66 
+01E0: 66 66 66 66 66 66 66 63 65 62 22 7D 5D 2C 22 73 
+01F0: 79 6E 63 5F 70 72 65 63 69 73 69 6F 6E 22 3A 22 
+0200: 61 31 30 30 66 66 66 66 66 66 66 66 66 63 31 66 
+0210: 22 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:build cnt json len: 1968, info: {"seq":"0","cnt_info":[{"sw_id":"0","esw_pkt_in_cnt":"4437abe","esw_pkt_out_cnt":"4437aad","buf_id_rest_cnt":"10","eos_md_in_cnt":"4437237","eos_md_out_cnt":"4437237","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"1","esw_pkt_in_cnt":"4b62a1f","esw_pkt_out_cnt":"4b62a1f","buf_id_rest_cnt":"10","eos_md_in_cnt":"4b62a1f","eos_md_out_cnt":"4b62a1f","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"2","esw_pkt_in_cnt":"4b6e960","esw_pkt_out_cnt":"4b6cab2","buf_id_rest_cnt":"10","eos_md_in_cnt":"4b6cab2","eos_md_out_cnt":"4b6cab2","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"3","esw_pkt_in_cnt":"445cc92","esw_pkt_out_cnt":"445a6cc","buf_id_rest_cnt":"10","eos_md_in_cnt":"445a02d","eos_md_out_cnt":"445a02d","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"4","esw_pkt_in_cnt":"3e47965","esw_pkt_out_cnt":"3d37422","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d36d4a","eos_md_out_cnt":"3d36d4a","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"5","esw_pkt_in_cnt":"3d1ece0","esw_pkt_out_cnt":"3d1ece0","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d1ece0","eos_md_out_cnt":"3d1ece0","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"}]}
+TSN-INFO:send packet to controller, len is: 1972!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4403948
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 04 07 B4 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 63 6E 74 5F 69 6E 66 6F 22 3A 5B 7B 22 73 77 5F 
+0020: 69 64 22 3A 22 30 22 2C 22 65 73 77 5F 70 6B 74 
+0030: 5F 69 6E 5F 63 6E 74 22 3A 22 34 34 33 37 61 62 
+0040: 65 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0050: 63 6E 74 22 3A 22 34 34 33 37 61 61 64 22 2C 22 
+0060: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0070: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0080: 5F 63 6E 74 22 3A 22 34 34 33 37 32 33 37 22 2C 
+0090: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+00A0: 3A 22 34 34 33 37 32 33 37 22 2C 22 65 6F 73 5F 
+00B0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+00C0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+00D0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+00E0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+00F0: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0100: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0110: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0120: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0130: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0140: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0150: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0160: 22 73 77 5F 69 64 22 3A 22 31 22 2C 22 65 73 77 
+0170: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 
+0180: 36 32 61 31 66 22 2C 22 65 73 77 5F 70 6B 74 5F 
+0190: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 36 32 61 31 
+01A0: 66 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+01B0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+01C0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 36 32 61 
+01D0: 31 66 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+01E0: 63 6E 74 22 3A 22 34 62 36 32 61 31 66 22 2C 22 
+01F0: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0200: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0210: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0220: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0230: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0240: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0250: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0260: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0270: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0280: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0290: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+02A0: 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 22 32 22 2C 
+02B0: 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 
+02C0: 3A 22 34 62 36 65 39 36 30 22 2C 22 65 73 77 5F 
+02D0: 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 62 
+02E0: 36 63 61 62 32 22 2C 22 62 75 66 5F 69 64 5F 72 
+02F0: 65 73 74 5F 63 6E 74 22 3A 22 31 30 22 2C 22 65 
+0300: 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 
+0310: 62 36 63 61 62 32 22 2C 22 65 6F 73 5F 6D 64 5F 
+0320: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 36 63 61 62 
+0330: 32 22 2C 22 65 6F 73 5F 71 30 5F 75 73 65 64 5F 
+0340: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 31 
+0350: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+0360: 65 6F 73 5F 71 32 5F 75 73 65 64 5F 63 6E 74 22 
+0370: 3A 22 30 22 2C 22 65 6F 73 5F 71 33 5F 75 73 65 
+0380: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 
+0390: 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 
+03A0: 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 
+03B0: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+03C0: 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+03D0: 22 67 6F 65 5F 64 69 73 63 61 72 64 5F 63 6E 74 
+03E0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+03F0: 22 33 22 2C 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 
+0400: 63 6E 74 22 3A 22 34 34 35 63 63 39 32 22 2C 22 
+0410: 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 
+0420: 3A 22 34 34 35 61 36 63 63 22 2C 22 62 75 66 5F 
+0430: 69 64 5F 72 65 73 74 5F 63 6E 74 22 3A 22 31 30 
+0440: 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 
+0450: 22 3A 22 34 34 35 61 30 32 64 22 2C 22 65 6F 73 
+0460: 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 34 
+0470: 35 61 30 32 64 22 2C 22 65 6F 73 5F 71 30 5F 75 
+0480: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0490: 73 5F 71 31 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+04A0: 30 22 2C 22 65 6F 73 5F 71 32 5F 75 73 65 64 5F 
+04B0: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 33 
+04C0: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+04D0: 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 
+04E0: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 
+04F0: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0500: 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 
+0510: 22 30 22 2C 22 67 6F 65 5F 64 69 73 63 61 72 64 
+0520: 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 
+0530: 69 64 22 3A 22 34 22 2C 22 65 73 77 5F 70 6B 74 
+0540: 5F 69 6E 5F 63 6E 74 22 3A 22 33 65 34 37 39 36 
+0550: 35 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0560: 63 6E 74 22 3A 22 33 64 33 37 34 32 32 22 2C 22 
+0570: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0580: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0590: 5F 63 6E 74 22 3A 22 33 64 33 36 64 34 61 22 2C 
+05A0: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+05B0: 3A 22 33 64 33 36 64 34 61 22 2C 22 65 6F 73 5F 
+05C0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+05D0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+05E0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+05F0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0600: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0610: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0620: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0630: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0640: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0650: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0660: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0670: 22 73 77 5F 69 64 22 3A 22 35 22 2C 22 65 73 77 
+0680: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 
+0690: 31 65 63 65 30 22 2C 22 65 73 77 5F 70 6B 74 5F 
+06A0: 6F 75 74 5F 63 6E 74 22 3A 22 33 64 31 65 63 65 
+06B0: 30 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+06C0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+06D0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 31 65 63 
+06E0: 65 30 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+06F0: 63 6E 74 22 3A 22 33 64 31 65 63 65 30 22 2C 22 
+0700: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0710: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0720: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0730: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0740: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0750: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0760: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0770: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0780: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0790: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+07A0: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+07B0: 22 7D 5D 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:there is only one node!
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 262b3915
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 12 23 7B E9 00 00 04 00 C4 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 03 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 3B 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: 01 02 03 04 05 06 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 46 7B 37 00 00 00 00 04 46 7B 26 
+0080: 03 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 46 72 AA 00 00 00 00 04 46 72 AA 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:0!
+TSN-INFO:recv_time:3917161234, trans_clock: 4251398048237748224
+TSN-INFO:Could not find node, Create one!
+TSN-INFO:s_list size: 1
+TSN-INFO:ptp from switch, sw num: 1
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b2312
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: DF 23 7B E9 00 00 04 00 C5 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 02 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 C6 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 D4 ED 58 00 00 00 00 03 D4 ED 58 
+0080: 02 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D4 ED 58 00 00 00 00 03 D4 ED 58 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:5!
+TSN-INFO:recv_time:3917161439, trans_clock: -4179340454199820288
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 2
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b23df
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: AB 24 7B E9 00 00 04 00 C6 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 01 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 51 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: 00 0A 35 00 1E 6F 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 E7 7A 5F 00 00 00 00 03 D6 74 B0 
+0080: 01 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D6 6D C1 00 00 00 00 03 D6 6D C1 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:4!
+TSN-INFO:recv_time:3917161643, trans_clock: 5836946592048873472
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 3
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b24ab
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: F3 26 7B E9 00 00 04 00 C7 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 00 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 DC 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: 8C 16 45 49 27 B0 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 48 CD 27 00 00 00 00 04 48 A7 59 
+0080: 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 48 A0 A3 00 00 00 00 04 48 A0 A3 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:3!
+TSN-INFO:recv_time:3917162227, trans_clock: -2593791910388695040
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 4
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b26f3
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 3E 29 7B E9 00 00 04 00 C8 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 05 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 67 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: 61 55 44 33 22 11 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 B9 E9 D5 00 00 00 00 04 B9 CB 27 
+0080: 05 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 B9 CB 27 00 00 00 00 04 B9 CB 27 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:2!
+TSN-INFO:recv_time:3917162814, trans_clock: 7422495135859998720
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 5
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b293e
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 0A 2A 7B E9 00 00 04 00 C9 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 04 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 F2 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 6F 00 00 
+0050: 00 00 00 00 01 6F 00 01 00 00 00 00 00 00 00 00 
+0060: F8 4D FC 77 21 D9 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 B9 2A 93 00 00 00 00 04 B9 2A 93 
+0080: 04 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 B9 2A 93 00 00 00 00 04 B9 2A 93 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:1!
+TSN-INFO:recv_time:3917163018, trans_clock: -1008243366577569792
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 6
+TSN-INFO:cur sw num is equal to node num: start to compute sync info
+TSN-INFO:build sync json len: 526, info: {"seq":"0","sync_state":[{"device_type":"switch","device_id":"fffffc1f","time_offset":"a100fffffffffc1f"},{"device_type":"switch","device_id":"fffffce9","time_offset":"1600fffffffffce9"},{"device_type":"switch","device_id":"0000024b","time_offset":"74ff00000000024b"},{"device_type":"switch","device_id":"3","time_offset":"0"},{"device_type":"switch","device_id":"fffffdb8","time_offset":"8afffffffffffdb8"},{"device_type":"switch","device_id":"fffffcec","time_offset":"1600fffffffffcec"}],"sync_precision":"a100fffffffffc1f"}
+TSN-INFO:send packet to controller, len is: 530!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4401dd8
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 03 02 12 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 73 79 6E 63 5F 73 74 61 74 65 22 3A 5B 7B 22 64 
+0020: 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 
+0030: 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 
+0040: 3A 22 66 66 66 66 66 63 31 66 22 2C 22 74 69 6D 
+0050: 65 5F 6F 66 66 73 65 74 22 3A 22 61 31 30 30 66 
+0060: 66 66 66 66 66 66 66 66 63 31 66 22 7D 2C 7B 22 
+0070: 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 
+0080: 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 
+0090: 22 3A 22 66 66 66 66 66 63 65 39 22 2C 22 74 69 
+00A0: 6D 65 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 
+00B0: 66 66 66 66 66 66 66 66 66 63 65 39 22 7D 2C 7B 
+00C0: 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 
+00D0: 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 
+00E0: 64 22 3A 22 30 30 30 30 30 32 34 62 22 2C 22 74 
+00F0: 69 6D 65 5F 6F 66 66 73 65 74 22 3A 22 37 34 66 
+0100: 66 30 30 30 30 30 30 30 30 30 32 34 62 22 7D 2C 
+0110: 7B 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 
+0120: 73 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 
+0130: 69 64 22 3A 22 33 22 2C 22 74 69 6D 65 5F 6F 66 
+0140: 66 73 65 74 22 3A 22 30 22 7D 2C 7B 22 64 65 76 
+0150: 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 63 
+0160: 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 22 
+0170: 66 66 66 66 66 64 62 38 22 2C 22 74 69 6D 65 5F 
+0180: 6F 66 66 73 65 74 22 3A 22 38 61 66 66 66 66 66 
+0190: 66 66 66 66 66 66 64 62 38 22 7D 2C 7B 22 64 65 
+01A0: 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 
+01B0: 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 
+01C0: 22 66 66 66 66 66 63 65 63 22 2C 22 74 69 6D 65 
+01D0: 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 66 66 
+01E0: 66 66 66 66 66 66 66 63 65 63 22 7D 5D 2C 22 73 
+01F0: 79 6E 63 5F 70 72 65 63 69 73 69 6F 6E 22 3A 22 
+0200: 61 31 30 30 66 66 66 66 66 66 66 66 66 63 31 66 
+0210: 22 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:build cnt json len: 1968, info: {"seq":"0","cnt_info":[{"sw_id":"0","esw_pkt_in_cnt":"4467b37","esw_pkt_out_cnt":"4467b26","buf_id_rest_cnt":"10","eos_md_in_cnt":"44672aa","eos_md_out_cnt":"44672aa","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"1","esw_pkt_in_cnt":"4b92a93","esw_pkt_out_cnt":"4b92a93","buf_id_rest_cnt":"10","eos_md_in_cnt":"4b92a93","eos_md_out_cnt":"4b92a93","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"2","esw_pkt_in_cnt":"4b9e9d5","esw_pkt_out_cnt":"4b9cb27","buf_id_rest_cnt":"10","eos_md_in_cnt":"4b9cb27","eos_md_out_cnt":"4b9cb27","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"3","esw_pkt_in_cnt":"448cd27","esw_pkt_out_cnt":"448a759","buf_id_rest_cnt":"10","eos_md_in_cnt":"448a0a3","eos_md_out_cnt":"448a0a3","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"4","esw_pkt_in_cnt":"3e77a5f","esw_pkt_out_cnt":"3d674b0","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d66dc1","eos_md_out_cnt":"3d66dc1","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"5","esw_pkt_in_cnt":"3d4ed58","esw_pkt_out_cnt":"3d4ed58","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d4ed58","eos_md_out_cnt":"3d4ed58","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"}]}
+TSN-INFO:send packet to controller, len is: 1972!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4404108
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 04 07 B4 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 63 6E 74 5F 69 6E 66 6F 22 3A 5B 7B 22 73 77 5F 
+0020: 69 64 22 3A 22 30 22 2C 22 65 73 77 5F 70 6B 74 
+0030: 5F 69 6E 5F 63 6E 74 22 3A 22 34 34 36 37 62 33 
+0040: 37 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0050: 63 6E 74 22 3A 22 34 34 36 37 62 32 36 22 2C 22 
+0060: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0070: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0080: 5F 63 6E 74 22 3A 22 34 34 36 37 32 61 61 22 2C 
+0090: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+00A0: 3A 22 34 34 36 37 32 61 61 22 2C 22 65 6F 73 5F 
+00B0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+00C0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+00D0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+00E0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+00F0: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0100: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0110: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0120: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0130: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0140: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0150: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0160: 22 73 77 5F 69 64 22 3A 22 31 22 2C 22 65 73 77 
+0170: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 
+0180: 39 32 61 39 33 22 2C 22 65 73 77 5F 70 6B 74 5F 
+0190: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 39 32 61 39 
+01A0: 33 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+01B0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+01C0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 39 32 61 
+01D0: 39 33 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+01E0: 63 6E 74 22 3A 22 34 62 39 32 61 39 33 22 2C 22 
+01F0: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0200: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0210: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0220: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0230: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0240: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0250: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0260: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0270: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0280: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0290: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+02A0: 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 22 32 22 2C 
+02B0: 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 
+02C0: 3A 22 34 62 39 65 39 64 35 22 2C 22 65 73 77 5F 
+02D0: 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 62 
+02E0: 39 63 62 32 37 22 2C 22 62 75 66 5F 69 64 5F 72 
+02F0: 65 73 74 5F 63 6E 74 22 3A 22 31 30 22 2C 22 65 
+0300: 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 
+0310: 62 39 63 62 32 37 22 2C 22 65 6F 73 5F 6D 64 5F 
+0320: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 39 63 62 32 
+0330: 37 22 2C 22 65 6F 73 5F 71 30 5F 75 73 65 64 5F 
+0340: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 31 
+0350: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+0360: 65 6F 73 5F 71 32 5F 75 73 65 64 5F 63 6E 74 22 
+0370: 3A 22 30 22 2C 22 65 6F 73 5F 71 33 5F 75 73 65 
+0380: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 
+0390: 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 
+03A0: 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 
+03B0: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+03C0: 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+03D0: 22 67 6F 65 5F 64 69 73 63 61 72 64 5F 63 6E 74 
+03E0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+03F0: 22 33 22 2C 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 
+0400: 63 6E 74 22 3A 22 34 34 38 63 64 32 37 22 2C 22 
+0410: 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 
+0420: 3A 22 34 34 38 61 37 35 39 22 2C 22 62 75 66 5F 
+0430: 69 64 5F 72 65 73 74 5F 63 6E 74 22 3A 22 31 30 
+0440: 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 
+0450: 22 3A 22 34 34 38 61 30 61 33 22 2C 22 65 6F 73 
+0460: 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 34 
+0470: 38 61 30 61 33 22 2C 22 65 6F 73 5F 71 30 5F 75 
+0480: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0490: 73 5F 71 31 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+04A0: 30 22 2C 22 65 6F 73 5F 71 32 5F 75 73 65 64 5F 
+04B0: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 33 
+04C0: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+04D0: 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 
+04E0: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 
+04F0: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0500: 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 
+0510: 22 30 22 2C 22 67 6F 65 5F 64 69 73 63 61 72 64 
+0520: 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 
+0530: 69 64 22 3A 22 34 22 2C 22 65 73 77 5F 70 6B 74 
+0540: 5F 69 6E 5F 63 6E 74 22 3A 22 33 65 37 37 61 35 
+0550: 66 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0560: 63 6E 74 22 3A 22 33 64 36 37 34 62 30 22 2C 22 
+0570: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0580: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0590: 5F 63 6E 74 22 3A 22 33 64 36 36 64 63 31 22 2C 
+05A0: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+05B0: 3A 22 33 64 36 36 64 63 31 22 2C 22 65 6F 73 5F 
+05C0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+05D0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+05E0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+05F0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0600: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0610: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0620: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0630: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0640: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0650: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0660: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0670: 22 73 77 5F 69 64 22 3A 22 35 22 2C 22 65 73 77 
+0680: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 
+0690: 34 65 64 35 38 22 2C 22 65 73 77 5F 70 6B 74 5F 
+06A0: 6F 75 74 5F 63 6E 74 22 3A 22 33 64 34 65 64 35 
+06B0: 38 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+06C0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+06D0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 34 65 64 
+06E0: 35 38 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+06F0: 63 6E 74 22 3A 22 33 64 34 65 64 35 38 22 2C 22 
+0700: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0710: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0720: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0730: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0740: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0750: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0760: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0770: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0780: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0790: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+07A0: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+07B0: 22 7D 5D 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:there is only one node!
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts e97b2a0a
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: C7 13 CB AC 00 00 04 00 D3 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 03 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 3B 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: 01 02 03 04 05 06 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 49 7B B1 00 00 00 00 04 49 7B A0 
+0080: 03 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 49 73 1E 00 00 00 00 04 49 73 1E 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:0!
+TSN-INFO:recv_time:2898990023, trans_clock: 4251398048237748224
+TSN-INFO:Could not find node, Create one!
+TSN-INFO:s_list size: 1
+TSN-INFO:ptp from switch, sw num: 1
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb13c7
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 93 14 CB AC 00 00 04 00 D4 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 02 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 C6 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 D7 ED D1 00 00 00 00 03 D7 ED D1 
+0080: 02 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D7 ED D1 00 00 00 00 03 D7 ED D1 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:5!
+TSN-INFO:recv_time:2898990227, trans_clock: -4179340454199820288
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 2
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb1493
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 5F 15 CB AC 00 00 04 00 D5 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 01 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 51 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: 00 0A 35 00 1E 6F 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 EA 7B 54 00 00 00 00 03 D9 75 40 
+0080: 01 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 D9 6E 39 00 00 00 00 03 D9 6E 39 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:4!
+TSN-INFO:recv_time:2898990431, trans_clock: 5836946592048873472
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 3
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb155f
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: A7 17 CB AC 00 00 04 00 D6 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 00 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 DC 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: 8C 16 45 49 27 B0 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 4B CD BD 00 00 00 00 04 4B A7 E8 
+0080: 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 4B A1 1A 00 00 00 00 04 4B A1 1A 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:3!
+TSN-INFO:recv_time:2898991015, trans_clock: -2593791910388695040
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 4
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb17a7
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: F2 19 CB AC 00 00 04 00 D7 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 05 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 67 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: 61 55 44 33 22 11 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 BC EA 4B 00 00 00 00 04 BC CB 9D 
+0080: 05 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 BC CB 9D 00 00 00 00 04 BC CB 9D 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:2!
+TSN-INFO:recv_time:2898991602, trans_clock: 7422495135859998720
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 5
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb19f2
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: BE 1A CB AC 00 00 04 00 D8 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 04 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 F2 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 70 00 00 
+0050: 00 00 00 00 01 70 00 01 00 00 00 00 00 00 00 00 
+0060: F8 4D FC 77 21 D9 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 BC 2B 08 00 00 00 00 04 BC 2B 08 
+0080: 04 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 BC 2B 08 00 00 00 00 04 BC 2B 08 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:1!
+TSN-INFO:recv_time:2898991806, trans_clock: -1008243366577569792
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 6
+TSN-INFO:cur sw num is equal to node num: start to compute sync info
+TSN-INFO:build sync json len: 526, info: {"seq":"0","sync_state":[{"device_type":"switch","device_id":"fffffc20","time_offset":"a100fffffffffc20"},{"device_type":"switch","device_id":"fffffce9","time_offset":"1600fffffffffce9"},{"device_type":"switch","device_id":"0000024b","time_offset":"74ff00000000024b"},{"device_type":"switch","device_id":"3","time_offset":"0"},{"device_type":"switch","device_id":"fffffdb8","time_offset":"8afffffffffffdb8"},{"device_type":"switch","device_id":"fffffcec","time_offset":"1600fffffffffcec"}],"sync_precision":"a100fffffffffc20"}
+TSN-INFO:send packet to controller, len is: 530!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4401ff0
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 03 02 12 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 73 79 6E 63 5F 73 74 61 74 65 22 3A 5B 7B 22 64 
+0020: 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 
+0030: 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 
+0040: 3A 22 66 66 66 66 66 63 32 30 22 2C 22 74 69 6D 
+0050: 65 5F 6F 66 66 73 65 74 22 3A 22 61 31 30 30 66 
+0060: 66 66 66 66 66 66 66 66 63 32 30 22 7D 2C 7B 22 
+0070: 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 
+0080: 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 
+0090: 22 3A 22 66 66 66 66 66 63 65 39 22 2C 22 74 69 
+00A0: 6D 65 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 
+00B0: 66 66 66 66 66 66 66 66 66 63 65 39 22 7D 2C 7B 
+00C0: 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 
+00D0: 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 
+00E0: 64 22 3A 22 30 30 30 30 30 32 34 62 22 2C 22 74 
+00F0: 69 6D 65 5F 6F 66 66 73 65 74 22 3A 22 37 34 66 
+0100: 66 30 30 30 30 30 30 30 30 30 32 34 62 22 7D 2C 
+0110: 7B 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 
+0120: 73 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 
+0130: 69 64 22 3A 22 33 22 2C 22 74 69 6D 65 5F 6F 66 
+0140: 66 73 65 74 22 3A 22 30 22 7D 2C 7B 22 64 65 76 
+0150: 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 63 
+0160: 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 22 
+0170: 66 66 66 66 66 64 62 38 22 2C 22 74 69 6D 65 5F 
+0180: 6F 66 66 73 65 74 22 3A 22 38 61 66 66 66 66 66 
+0190: 66 66 66 66 66 66 64 62 38 22 7D 2C 7B 22 64 65 
+01A0: 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 
+01B0: 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 
+01C0: 22 66 66 66 66 66 63 65 63 22 2C 22 74 69 6D 65 
+01D0: 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 66 66 
+01E0: 66 66 66 66 66 66 66 63 65 63 22 7D 5D 2C 22 73 
+01F0: 79 6E 63 5F 70 72 65 63 69 73 69 6F 6E 22 3A 22 
+0200: 61 31 30 30 66 66 66 66 66 66 66 66 66 63 32 30 
+0210: 22 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:build cnt json len: 1968, info: {"seq":"0","cnt_info":[{"sw_id":"0","esw_pkt_in_cnt":"4497bb1","esw_pkt_out_cnt":"4497ba0","buf_id_rest_cnt":"10","eos_md_in_cnt":"449731e","eos_md_out_cnt":"449731e","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"1","esw_pkt_in_cnt":"4bc2b08","esw_pkt_out_cnt":"4bc2b08","buf_id_rest_cnt":"10","eos_md_in_cnt":"4bc2b08","eos_md_out_cnt":"4bc2b08","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"2","esw_pkt_in_cnt":"4bcea4b","esw_pkt_out_cnt":"4bccb9d","buf_id_rest_cnt":"10","eos_md_in_cnt":"4bccb9d","eos_md_out_cnt":"4bccb9d","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"3","esw_pkt_in_cnt":"44bcdbd","esw_pkt_out_cnt":"44ba7e8","buf_id_rest_cnt":"10","eos_md_in_cnt":"44ba11a","eos_md_out_cnt":"44ba11a","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"4","esw_pkt_in_cnt":"3ea7b54","esw_pkt_out_cnt":"3d97540","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d96e39","eos_md_out_cnt":"3d96e39","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"5","esw_pkt_in_cnt":"3d7edd1","esw_pkt_out_cnt":"3d7edd1","buf_id_rest_cnt":"10","eos_md_in_cnt":"3d7edd1","eos_md_out_cnt":"3d7edd1","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"}]}
+TSN-INFO:send packet to controller, len is: 1972!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4405088
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 04 07 B4 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 63 6E 74 5F 69 6E 66 6F 22 3A 5B 7B 22 73 77 5F 
+0020: 69 64 22 3A 22 30 22 2C 22 65 73 77 5F 70 6B 74 
+0030: 5F 69 6E 5F 63 6E 74 22 3A 22 34 34 39 37 62 62 
+0040: 31 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0050: 63 6E 74 22 3A 22 34 34 39 37 62 61 30 22 2C 22 
+0060: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0070: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0080: 5F 63 6E 74 22 3A 22 34 34 39 37 33 31 65 22 2C 
+0090: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+00A0: 3A 22 34 34 39 37 33 31 65 22 2C 22 65 6F 73 5F 
+00B0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+00C0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+00D0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+00E0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+00F0: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0100: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0110: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0120: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0130: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0140: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0150: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0160: 22 73 77 5F 69 64 22 3A 22 31 22 2C 22 65 73 77 
+0170: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 
+0180: 63 32 62 30 38 22 2C 22 65 73 77 5F 70 6B 74 5F 
+0190: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 63 32 62 30 
+01A0: 38 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+01B0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+01C0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 63 32 62 
+01D0: 30 38 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+01E0: 63 6E 74 22 3A 22 34 62 63 32 62 30 38 22 2C 22 
+01F0: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0200: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0210: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0220: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0230: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0240: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0250: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0260: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0270: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0280: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0290: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+02A0: 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 22 32 22 2C 
+02B0: 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 
+02C0: 3A 22 34 62 63 65 61 34 62 22 2C 22 65 73 77 5F 
+02D0: 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 62 
+02E0: 63 63 62 39 64 22 2C 22 62 75 66 5F 69 64 5F 72 
+02F0: 65 73 74 5F 63 6E 74 22 3A 22 31 30 22 2C 22 65 
+0300: 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 
+0310: 62 63 63 62 39 64 22 2C 22 65 6F 73 5F 6D 64 5F 
+0320: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 63 63 62 39 
+0330: 64 22 2C 22 65 6F 73 5F 71 30 5F 75 73 65 64 5F 
+0340: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 31 
+0350: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+0360: 65 6F 73 5F 71 32 5F 75 73 65 64 5F 63 6E 74 22 
+0370: 3A 22 30 22 2C 22 65 6F 73 5F 71 33 5F 75 73 65 
+0380: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 
+0390: 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 
+03A0: 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 
+03B0: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+03C0: 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+03D0: 22 67 6F 65 5F 64 69 73 63 61 72 64 5F 63 6E 74 
+03E0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+03F0: 22 33 22 2C 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 
+0400: 63 6E 74 22 3A 22 34 34 62 63 64 62 64 22 2C 22 
+0410: 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 
+0420: 3A 22 34 34 62 61 37 65 38 22 2C 22 62 75 66 5F 
+0430: 69 64 5F 72 65 73 74 5F 63 6E 74 22 3A 22 31 30 
+0440: 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 
+0450: 22 3A 22 34 34 62 61 31 31 61 22 2C 22 65 6F 73 
+0460: 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 34 
+0470: 62 61 31 31 61 22 2C 22 65 6F 73 5F 71 30 5F 75 
+0480: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0490: 73 5F 71 31 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+04A0: 30 22 2C 22 65 6F 73 5F 71 32 5F 75 73 65 64 5F 
+04B0: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 33 
+04C0: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+04D0: 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 
+04E0: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 
+04F0: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0500: 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 
+0510: 22 30 22 2C 22 67 6F 65 5F 64 69 73 63 61 72 64 
+0520: 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 
+0530: 69 64 22 3A 22 34 22 2C 22 65 73 77 5F 70 6B 74 
+0540: 5F 69 6E 5F 63 6E 74 22 3A 22 33 65 61 37 62 35 
+0550: 34 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0560: 63 6E 74 22 3A 22 33 64 39 37 35 34 30 22 2C 22 
+0570: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0580: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0590: 5F 63 6E 74 22 3A 22 33 64 39 36 65 33 39 22 2C 
+05A0: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+05B0: 3A 22 33 64 39 36 65 33 39 22 2C 22 65 6F 73 5F 
+05C0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+05D0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+05E0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+05F0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0600: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0610: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0620: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0630: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0640: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0650: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0660: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0670: 22 73 77 5F 69 64 22 3A 22 35 22 2C 22 65 73 77 
+0680: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 
+0690: 37 65 64 64 31 22 2C 22 65 73 77 5F 70 6B 74 5F 
+06A0: 6F 75 74 5F 63 6E 74 22 3A 22 33 64 37 65 64 64 
+06B0: 31 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+06C0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+06D0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 37 65 64 
+06E0: 64 31 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+06F0: 63 6E 74 22 3A 22 33 64 37 65 64 64 31 22 2C 22 
+0700: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0710: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0720: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0730: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0740: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0750: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0760: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0770: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0780: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0790: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+07A0: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+07B0: 22 7D 5D 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:there is only one node!
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts accb1abe
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: E3 04 1B 70 00 00 04 00 E5 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 03 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 3B 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: 01 02 03 04 05 06 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 4C 7C 3B 00 00 00 00 04 4C 7C 2A 
+0080: 03 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 4C 73 A2 00 00 00 00 04 4C 73 A2 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:0!
+TSN-INFO:recv_time:1880818915, trans_clock: 4251398048237748224
+TSN-INFO:Could not find node, Create one!
+TSN-INFO:s_list size: 1
+TSN-INFO:ptp from switch, sw num: 1
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b04e3
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: AF 05 1B 70 00 00 04 00 E6 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 02 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 00 C6 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: 00 00 00 00 00 00 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 DA EE 5A 00 00 00 00 03 DA EE 5A 
+0080: 02 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 DA EE 5A 00 00 00 00 03 DA EE 5A 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:5!
+TSN-INFO:recv_time:1880819119, trans_clock: -4179340454199820288
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 2
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b05af
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 7B 06 1B 70 00 00 04 00 E7 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 01 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 51 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: 00 0A 35 00 1E 6F 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 03 ED 7C 5C 00 00 00 00 03 DC 75 E0 
+0080: 01 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 03 DC 6E C1 00 00 00 00 03 DC 6E C1 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:4!
+TSN-INFO:recv_time:1880819323, trans_clock: 5836946592048873472
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 3
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b067b
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: C3 08 1B 70 00 00 04 00 E8 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 00 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 01 DC 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: 8C 16 45 49 27 B0 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 4E CE 74 00 00 00 00 04 4E A8 87 
+0080: 00 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 4E A1 A1 00 00 00 00 04 4E A1 A1 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:3!
+TSN-INFO:recv_time:1880819907, trans_clock: -2593791910388695040
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 4
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b08c3
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 0D 0B 1B 70 00 00 04 00 E9 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 05 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 67 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: 61 55 44 33 22 11 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 BF EA D1 00 00 00 00 04 BF CC 23 
+0080: 05 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 BF CC 23 00 00 00 00 04 BF CC 23 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:2!
+TSN-INFO:recv_time:1880820493, trans_clock: 7422495135859998720
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 5
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b0b0d
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4400468
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: DA 0B 1B 70 00 00 04 00 EA 03 96 00 D0 00 00 40 
+0010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0020: 01 02 03 04 05 06 00 06 06 00 00 04 88 F7 0F 00 
+0030: 00 B0 00 00 00 00 00 00 00 00 00 00 02 F2 00 00 
+0040: 00 00 00 00 00 00 00 00 00 00 00 00 01 71 00 00 
+0050: 00 00 00 00 01 71 00 01 00 00 00 00 00 00 00 00 
+0060: F8 4D FC 77 21 D9 80 00 00 00 00 00 00 00 7A 12 
+0070: 00 00 00 00 04 BF 2B 8D 00 00 00 00 04 BF 2B 8D 
+0080: 04 10 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+0090: 00 00 00 00 04 BF 2B 8D 00 00 00 00 04 BF 2B 8D 
+00A0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00B0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+00C0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:this is PTP packet
+TSN-INFO:Insert ptp to state list: seq: 0, device type:1, device id:1!
+TSN-INFO:recv_time:1880820698, trans_clock: -1008243366577569792
+TSN-INFO:the position of node is 0
+TSN-INFO:ptp from switch, sw num: 6
+TSN-INFO:cur sw num is equal to node num: start to compute sync info
+TSN-INFO:build sync json len: 526, info: {"seq":"0","sync_state":[{"device_type":"switch","device_id":"fffffc20","time_offset":"a100fffffffffc20"},{"device_type":"switch","device_id":"fffffce9","time_offset":"1600fffffffffce9"},{"device_type":"switch","device_id":"0000024a","time_offset":"74ff00000000024a"},{"device_type":"switch","device_id":"3","time_offset":"0"},{"device_type":"switch","device_id":"fffffdb8","time_offset":"8afffffffffffdb8"},{"device_type":"switch","device_id":"fffffcec","time_offset":"1600fffffffffcec"}],"sync_precision":"a100fffffffffc20"}
+TSN-INFO:send packet to controller, len is: 530!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4401400
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 03 02 12 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 73 79 6E 63 5F 73 74 61 74 65 22 3A 5B 7B 22 64 
+0020: 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 
+0030: 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 
+0040: 3A 22 66 66 66 66 66 63 32 30 22 2C 22 74 69 6D 
+0050: 65 5F 6F 66 66 73 65 74 22 3A 22 61 31 30 30 66 
+0060: 66 66 66 66 66 66 66 66 63 32 30 22 7D 2C 7B 22 
+0070: 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 
+0080: 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 
+0090: 22 3A 22 66 66 66 66 66 63 65 39 22 2C 22 74 69 
+00A0: 6D 65 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 
+00B0: 66 66 66 66 66 66 66 66 66 63 65 39 22 7D 2C 7B 
+00C0: 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 73 
+00D0: 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 69 
+00E0: 64 22 3A 22 30 30 30 30 30 32 34 61 22 2C 22 74 
+00F0: 69 6D 65 5F 6F 66 66 73 65 74 22 3A 22 37 34 66 
+0100: 66 30 30 30 30 30 30 30 30 30 32 34 61 22 7D 2C 
+0110: 7B 22 64 65 76 69 63 65 5F 74 79 70 65 22 3A 22 
+0120: 73 77 69 74 63 68 22 2C 22 64 65 76 69 63 65 5F 
+0130: 69 64 22 3A 22 33 22 2C 22 74 69 6D 65 5F 6F 66 
+0140: 66 73 65 74 22 3A 22 30 22 7D 2C 7B 22 64 65 76 
+0150: 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 63 
+0160: 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 22 
+0170: 66 66 66 66 66 64 62 38 22 2C 22 74 69 6D 65 5F 
+0180: 6F 66 66 73 65 74 22 3A 22 38 61 66 66 66 66 66 
+0190: 66 66 66 66 66 66 64 62 38 22 7D 2C 7B 22 64 65 
+01A0: 76 69 63 65 5F 74 79 70 65 22 3A 22 73 77 69 74 
+01B0: 63 68 22 2C 22 64 65 76 69 63 65 5F 69 64 22 3A 
+01C0: 22 66 66 66 66 66 63 65 63 22 2C 22 74 69 6D 65 
+01D0: 5F 6F 66 66 73 65 74 22 3A 22 31 36 30 30 66 66 
+01E0: 66 66 66 66 66 66 66 63 65 63 22 7D 5D 2C 22 73 
+01F0: 79 6E 63 5F 70 72 65 63 69 73 69 6F 6E 22 3A 22 
+0200: 61 31 30 30 66 66 66 66 66 66 66 66 66 63 32 30 
+0210: 22 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:build cnt json len: 1968, info: {"seq":"0","cnt_info":[{"sw_id":"0","esw_pkt_in_cnt":"44c7c3b","esw_pkt_out_cnt":"44c7c2a","buf_id_rest_cnt":"10","eos_md_in_cnt":"44c73a2","eos_md_out_cnt":"44c73a2","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"1","esw_pkt_in_cnt":"4bf2b8d","esw_pkt_out_cnt":"4bf2b8d","buf_id_rest_cnt":"10","eos_md_in_cnt":"4bf2b8d","eos_md_out_cnt":"4bf2b8d","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"2","esw_pkt_in_cnt":"4bfead1","esw_pkt_out_cnt":"4bfcc23","buf_id_rest_cnt":"10","eos_md_in_cnt":"4bfcc23","eos_md_out_cnt":"4bfcc23","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"3","esw_pkt_in_cnt":"44ece74","esw_pkt_out_cnt":"44ea887","buf_id_rest_cnt":"10","eos_md_in_cnt":"44ea1a1","eos_md_out_cnt":"44ea1a1","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"4","esw_pkt_in_cnt":"3ed7c5c","esw_pkt_out_cnt":"3dc75e0","buf_id_rest_cnt":"10","eos_md_in_cnt":"3dc6ec1","eos_md_out_cnt":"3dc6ec1","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"},{"sw_id":"5","esw_pkt_in_cnt":"3daee5a","esw_pkt_out_cnt":"3daee5a","buf_id_rest_cnt":"10","eos_md_in_cnt":"3daee5a","eos_md_out_cnt":"3daee5a","eos_q0_used_cnt":"0","eos_q1_used_cnt":"0","eos_q2_used_cnt":"0","eos_q3_used_cnt":"0","goe_pkt_in_cnt":"0","goe_port0_out_cnt":"0","goe_port1_out_cnt":"0","goe_discard_cnt":"0"}]}
+TSN-INFO:send packet to controller, len is: 1972!
+TSN-INFO:Send controller packet successfully!
+-----------------------***TSN PACKET***-----------------------
+Packet Addr:0xb4405848
+       0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F 
+0000: 01 04 07 B4 7B 22 73 65 71 22 3A 22 30 22 2C 22 
+0010: 63 6E 74 5F 69 6E 66 6F 22 3A 5B 7B 22 73 77 5F 
+0020: 69 64 22 3A 22 30 22 2C 22 65 73 77 5F 70 6B 74 
+0030: 5F 69 6E 5F 63 6E 74 22 3A 22 34 34 63 37 63 33 
+0040: 62 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0050: 63 6E 74 22 3A 22 34 34 63 37 63 32 61 22 2C 22 
+0060: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0070: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0080: 5F 63 6E 74 22 3A 22 34 34 63 37 33 61 32 22 2C 
+0090: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+00A0: 3A 22 34 34 63 37 33 61 32 22 2C 22 65 6F 73 5F 
+00B0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+00C0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+00D0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+00E0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+00F0: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0100: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0110: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0120: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0130: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0140: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0150: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0160: 22 73 77 5F 69 64 22 3A 22 31 22 2C 22 65 73 77 
+0170: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 
+0180: 66 32 62 38 64 22 2C 22 65 73 77 5F 70 6B 74 5F 
+0190: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 66 32 62 38 
+01A0: 64 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+01B0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+01C0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 62 66 32 62 
+01D0: 38 64 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+01E0: 63 6E 74 22 3A 22 34 62 66 32 62 38 64 22 2C 22 
+01F0: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0200: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0210: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0220: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0230: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0240: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0250: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0260: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0270: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0280: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0290: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+02A0: 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 22 32 22 2C 
+02B0: 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 
+02C0: 3A 22 34 62 66 65 61 64 31 22 2C 22 65 73 77 5F 
+02D0: 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 62 
+02E0: 66 63 63 32 33 22 2C 22 62 75 66 5F 69 64 5F 72 
+02F0: 65 73 74 5F 63 6E 74 22 3A 22 31 30 22 2C 22 65 
+0300: 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 22 3A 22 34 
+0310: 62 66 63 63 32 33 22 2C 22 65 6F 73 5F 6D 64 5F 
+0320: 6F 75 74 5F 63 6E 74 22 3A 22 34 62 66 63 63 32 
+0330: 33 22 2C 22 65 6F 73 5F 71 30 5F 75 73 65 64 5F 
+0340: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 31 
+0350: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+0360: 65 6F 73 5F 71 32 5F 75 73 65 64 5F 63 6E 74 22 
+0370: 3A 22 30 22 2C 22 65 6F 73 5F 71 33 5F 75 73 65 
+0380: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 
+0390: 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 
+03A0: 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 
+03B0: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+03C0: 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+03D0: 22 67 6F 65 5F 64 69 73 63 61 72 64 5F 63 6E 74 
+03E0: 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 69 64 22 3A 
+03F0: 22 33 22 2C 22 65 73 77 5F 70 6B 74 5F 69 6E 5F 
+0400: 63 6E 74 22 3A 22 34 34 65 63 65 37 34 22 2C 22 
+0410: 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 63 6E 74 22 
+0420: 3A 22 34 34 65 61 38 38 37 22 2C 22 62 75 66 5F 
+0430: 69 64 5F 72 65 73 74 5F 63 6E 74 22 3A 22 31 30 
+0440: 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 5F 63 6E 74 
+0450: 22 3A 22 34 34 65 61 31 61 31 22 2C 22 65 6F 73 
+0460: 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 3A 22 34 34 
+0470: 65 61 31 61 31 22 2C 22 65 6F 73 5F 71 30 5F 75 
+0480: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0490: 73 5F 71 31 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+04A0: 30 22 2C 22 65 6F 73 5F 71 32 5F 75 73 65 64 5F 
+04B0: 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 33 
+04C0: 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 
+04D0: 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 
+04E0: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 30 5F 6F 
+04F0: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0500: 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 6E 74 22 3A 
+0510: 22 30 22 2C 22 67 6F 65 5F 64 69 73 63 61 72 64 
+0520: 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 22 73 77 5F 
+0530: 69 64 22 3A 22 34 22 2C 22 65 73 77 5F 70 6B 74 
+0540: 5F 69 6E 5F 63 6E 74 22 3A 22 33 65 64 37 63 35 
+0550: 63 22 2C 22 65 73 77 5F 70 6B 74 5F 6F 75 74 5F 
+0560: 63 6E 74 22 3A 22 33 64 63 37 35 65 30 22 2C 22 
+0570: 62 75 66 5F 69 64 5F 72 65 73 74 5F 63 6E 74 22 
+0580: 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 64 5F 69 6E 
+0590: 5F 63 6E 74 22 3A 22 33 64 63 36 65 63 31 22 2C 
+05A0: 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 63 6E 74 22 
+05B0: 3A 22 33 64 63 36 65 63 31 22 2C 22 65 6F 73 5F 
+05C0: 71 30 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+05D0: 2C 22 65 6F 73 5F 71 31 5F 75 73 65 64 5F 63 6E 
+05E0: 74 22 3A 22 30 22 2C 22 65 6F 73 5F 71 32 5F 75 
+05F0: 73 65 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 
+0600: 73 5F 71 33 5F 75 73 65 64 5F 63 6E 74 22 3A 22 
+0610: 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 69 6E 5F 63 
+0620: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6F 72 
+0630: 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 22 30 22 2C 
+0640: 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 75 74 5F 63 
+0650: 6E 74 22 3A 22 30 22 2C 22 67 6F 65 5F 64 69 73 
+0660: 63 61 72 64 5F 63 6E 74 22 3A 22 30 22 7D 2C 7B 
+0670: 22 73 77 5F 69 64 22 3A 22 35 22 2C 22 65 73 77 
+0680: 5F 70 6B 74 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 
+0690: 61 65 65 35 61 22 2C 22 65 73 77 5F 70 6B 74 5F 
+06A0: 6F 75 74 5F 63 6E 74 22 3A 22 33 64 61 65 65 35 
+06B0: 61 22 2C 22 62 75 66 5F 69 64 5F 72 65 73 74 5F 
+06C0: 63 6E 74 22 3A 22 31 30 22 2C 22 65 6F 73 5F 6D 
+06D0: 64 5F 69 6E 5F 63 6E 74 22 3A 22 33 64 61 65 65 
+06E0: 35 61 22 2C 22 65 6F 73 5F 6D 64 5F 6F 75 74 5F 
+06F0: 63 6E 74 22 3A 22 33 64 61 65 65 35 61 22 2C 22 
+0700: 65 6F 73 5F 71 30 5F 75 73 65 64 5F 63 6E 74 22 
+0710: 3A 22 30 22 2C 22 65 6F 73 5F 71 31 5F 75 73 65 
+0720: 64 5F 63 6E 74 22 3A 22 30 22 2C 22 65 6F 73 5F 
+0730: 71 32 5F 75 73 65 64 5F 63 6E 74 22 3A 22 30 22 
+0740: 2C 22 65 6F 73 5F 71 33 5F 75 73 65 64 5F 63 6E 
+0750: 74 22 3A 22 30 22 2C 22 67 6F 65 5F 70 6B 74 5F 
+0760: 69 6E 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+0770: 5F 70 6F 72 74 30 5F 6F 75 74 5F 63 6E 74 22 3A 
+0780: 22 30 22 2C 22 67 6F 65 5F 70 6F 72 74 31 5F 6F 
+0790: 75 74 5F 63 6E 74 22 3A 22 30 22 2C 22 67 6F 65 
+07A0: 5F 64 69 73 63 61 72 64 5F 63 6E 74 22 3A 22 30 
+07B0: 22 7D 5D 7D 
+-----------------------***TSN PACKET***-----------------------
+
+TSN-INFO:there is only one node!
+TSN-INFO:(pkt->um.reserve << 32) + pkt->um.ts 701b0bda
+fast_ua_destroy

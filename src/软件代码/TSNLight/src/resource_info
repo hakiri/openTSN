@@ -1,0 +1,9 @@
+total_bd=1000
+cqf_len=16
+direction=0
+tb_rate=100
+tb_B=2048
+time_slot=4
+total_bd=1000
+cqf_len=16
+TAP=1

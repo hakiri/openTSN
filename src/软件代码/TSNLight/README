@@ -1,0 +1,12 @@
+文件中单位：
+	1.flow_info
+		a. bandwidth: Mb/s
+		b. pkt_num: 个
+		c. pkt_size: B
+		d. interval: us
+		e. latency: us
+	2.resource.h
+		a. BANDWIDTH: Mb/s
+		b. CQF_LEN: 个
+	3. tsn_public.h
+		a. DEFAULT_SLOT_SIZE: us

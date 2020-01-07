@@ -1,0 +1,19 @@
+{
+	type:tsn
+	flow_id:0
+	src_mac:12:22:33:44:55:66
+	dst_mac:00:00:00:00:00:00
+	priority:7
+	interval:1000
+	pkt_num:1
+	pkt_size:1000
+	latency: 100000
+}
+{
+	type:bd
+	flow_id:0
+	src_mac:8c:16:45:49:27:b0
+	dst_mac:12:22:33:44:55:66
+	priority:4
+	bandwidth:10
+}

@@ -1,0 +1,34 @@
+2019.6.10
+1.在打印print_topology函数中添加打印sync_type
+
+2019.6.19  by sxt 
+1,main.c中，将global_flow_resource_sched(tbl)函数和init_south_io()的位置进行互换，把global_flow_resource_sched(tbl)放到前面。
+２，修改了flow_config.c中的config_bd_uni_flow(struct bd_uni_cfg bd_cfg)函数，将ret = ptp_write_tb_rate(bd_cfg.sw_mac[i], ceil((float)(bd_cfg.tb_rate[i]) / 10));替换为：
+｛
+		w_id = get_sw_id_by_sw_mac(bd_cfg.sw_mac);
+		get_cfg_info(sw_id, &cfg);
+		cfg->tb_rate = htonl(ceil((float)(bd_cfg.tb_rate[i]) / 10));
+		ret = update_cfg_info(u8 sw_id, cfg);
+｝
+2,修改state_mgr.c文件中ptp_packet_state_process函数里对trans_clock的赋值，
+即使用libtool库里的ntohll函数对pkt->correct_field进行大小端转换（u64 trans_clock = ntohll(pkt->correct_field)）;
+
+
+
+2019.6.21 by sxt
+1,修改ptp_packet_state_process函数中对node->sw_state[dev_id].sync的赋值 ------(recv_time + COMPENSATE_TIME - trans_clock-PHY_TIME*hop_num);
+2,修改ptp_packet_state_process函数中对recv_time的赋值-----(_recv_time>>17)*125000+(_recv_time&0x1ffff);
+
+2019.8.9 by ljs
+1.修改south_io.c中为只从openbox端口接收报文，不下发配置报文，删除掉ptp_write和写响应的功能。只是接收报文，并在callback中进行处理，默认从0号端口接收到的是beacon报文。
+
+2019.8.14 by ljs
+1.修改state_mgr.c中记录文本，删除记录文件，增加一个printf函数，在终端执行时输入 > xxx.txt，把打印的内容输出到xxx.txt，并关闭打印信息TSN_ERR
+2.修改pkt_print函数，屏蔽里面的所有内容，不打印。
+
+2019.9.17 by ljs
+1.修改PTP报文的格式
+
+2019.12.13 by ljs
+1.星型拓扑下的状态管理
+

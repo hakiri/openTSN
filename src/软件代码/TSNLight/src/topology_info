@@ -1,0 +1,91 @@
+{
+	sw_id:0
+	sync_type:master
+	host_id:0
+	sw_mac:00:06:06:00:00:00
+	host_mac:01:02:03:04:05:06
+	next_port:1
+	prev_port:0
+	port1:00:06:06:00:00:01
+	port1:00:06:06:00:00:02
+	port1:00:06:06:00:00:03
+	port1:00:06:06:00:00:04
+	port1:00:06:06:00:00:05
+	port2:01:02:03:04:05:06
+}
+{
+	sw_id:1
+	sync_type:slave
+	host_id:1
+	sw_mac:00:06:06:00:00:01
+	host_mac:f8:4d:fc:77:21:d9
+	next_port:1
+	prev_port:0
+	port0:01:02:03:04:05:06
+	port0:00:06:06:00:00:00
+	port1:00:06:06:00:00:02
+	port2:00:06:06:00:00:03
+	port3:00:06:06:00:00:04
+	port3:00:06:06:00:00:05
+	port1:11:22:33:44:55:66
+	port1:12:22:33:44:55:66
+	port1:f8:4d:fc:77:21:d9
+	port3:10:c3:7b:23:0d:9e
+}
+{
+	sw_id:2
+	sync_type:slave
+	host_id:2
+	sw_mac:00:06:06:00:00:02
+	host_mac:12:22:33:44:55:66
+	next_port:1
+	prev_port:0
+	port0:01:02:03:04:05:06
+	port0:00:06:06:00:00:00
+	port2:11:22:33:44:55:66
+	port1:12:22:33:44:55:66
+	port3:f8:4d:fc:77:21:d9
+	port0:10:c3:7b:23:0d:9e
+}
+{
+	sw_id:3
+	sync_type:slave
+	host_id:3
+	sw_mac:00:06:06:00:00:03
+	host_mac:8c:16:45:49:27:b0
+	next_port:1
+	prev_port:0
+	port0:01:02:03:04:05:06
+	port0:00:06:06:00:00:00
+	port0:11:22:33:44:55:66
+	port0:12:22:33:44:55:66
+}
+{
+	sw_id:4
+	sync_type:slave
+	host_id:4
+	sw_mac:00:06:06:00:00:04
+	host_mac:66:55:44:33:22:11
+	next_port:1
+	prev_port:0
+	port0:01:02:03:04:05:06
+	port0:00:06:06:00:00:00
+	port1:00:06:06:00:00:05
+	port0:12:22:33:44:55:66
+	port0:f8:4d:fc:77:21:d9
+	port1:10:c3:7b:23:0d:9e
+}
+{
+	sw_id:5
+	sync_type:slave
+	host_id:5
+	sw_mac:00:06:06:00:00:05
+	host_mac:00:00:00:00:00:00
+	next_port:1
+	prev_port:0
+	port0:01:02:03:04:05:06
+	port0:00:06:06:00:00:00
+	port0:12:22:33:44:55:66
+	port0:f8:4d:fc:77:21:d9
+	port1:10:c3:7b:23:0d:9e
+}

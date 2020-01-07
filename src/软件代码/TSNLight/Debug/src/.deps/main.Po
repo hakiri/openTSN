@@ -1,0 +1,4 @@
+main.o: /home/michael/Documents/tsn_controller/src/main.c \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

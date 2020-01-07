@@ -1,0 +1,26 @@
+1.“app”目录存放了FAST开发团队基于FAST 2.0架构开发的开源应用，当前版本中包含了“ams”（精确网络测量）、
+  “l2switch”（二层交换）以及“openflow”（OpenFlow通道），FAST开发团队将来还会更新现有应用并继续更新新
+  的开源应用。
+2.“include”目录存放了FAST 2.0开发环境的头文件，头文件中定义了各类FAST函数的声明以及数据结构的定义，
+  用户在开发FAST应用的时候，需要应用include目录中的“fast.h”头文件。
+3.“lib”目录存放了FAST 2.0开发环境的相关库文件，包括FAST 2.0基础库文件和应用库文件，当前版本内部包含了
+  libreg、libua、librule三个基础库以及libams、libofp两个应用库，将来添加了新的应用后还会继续添加新的库文件。
+4.“src”目录用于存放用户自行编写的demo文件，用户可通过编辑src目录下的main.c文件，实现一个简单的FAST 2.0
+  应用demo，且相关的编译依赖关系已提前写好在了Makefile中，用户编写完代码后直接make即可编译。
+5.“tools”目录存放了FAST 2.0版本中的各类开发工具源码，当前版本中的开发工具有：
+	A:ctl_rw：该工具可用于通过环形控制通路读写用户自定义模块中的指定寄存器；
+	命令：ctl_rw smid dmid addr [value]		#不带value时为读，带value时为写
+	B:debug：该工具可用于读取UM五级流水线模块中各个模块的相关计数寄存器以及状态寄存器；
+	命令：debug um #统计输出标准5级流水线各关键信号计数信息，通过计数变量判断可能出现问题的流水线环节
+	C:mem_rw：该工具可用于读写系统内存指定地址的数据；
+	命令：mem_rw phyaddr len oft [value]   #不带value时为读，带value时为写
+	D:port_count：该工具可用于读取各个物理端口的报文计数信息；
+	命令：port_count [portid]  #不带端口号时为读取所有端口信息，带端口号时，仅输出指定端口信息
+	E:port_status：该工具可用于读取各个物理端口的链路状态信息；
+	命令：port_status [portid]  #不带端口号时为读取所有端口信息，带端口号时，仅输出指定端口信息
+	F:reg_rw：该工具可用于读写UM中的指定寄存器中的数据；
+	命令：reg_rw addr [value]  #不带value时为读，带value时为写
+	G:rule_rw：该工具可用于读取UM GME模块中的FAST rule内容；
+	命令：rule_rw hw|set   #带set参数为写入示例流表到硬件；带hw参数为读取硬件流表信息
+	H:version：该工具可用于读取各软件模块以及FPGA OS、UM的版本号信息。
+	命令：version fast #必须带上fast参数，打印输出FAST开发环境中所有硬件、软件模块等工具的版本号信息

@@ -1,0 +1,25 @@
+[Anjuta]
+Maximized=1
+Geometry=1853x1025+67+27
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Execution]
+Run in terminal=2
+Working directories=../../.
+
+[Project Manager]
+Shortcut=fast-0.4.4//src//fast%%%fast-0.4.4//lib//libreg//libreg.a%%%fast-0.4.4//lib//librule//librule.a%%%fast-0.4.4//lib//libua//libua.a%%%fast-0.4.4//lib//libofp//libofp.a%%%fast-0.4.4//lib//libams//libams.a%%%fast-0.4.4//app//l2switch//l2switch%%%fast-0.4.4//app//openflow//xofp%%%fast-0.4.4//app//ams//ams%%%fast-0.4.4//app//l3route//l3route%%%fast-0.4.4//tools//debug//debug%%%fast-0.4.4//tools//reg_rw//reg_rw%%%fast-0.4.4//tools//rule_rw//rule_rw%%%fast-0.4.4//tools//port_counts//port_counts%%%fast-0.4.4//tools//port_status//port_status%%%fast-0.4.4//tools//ctl_rw//ctl_rw%%%fast-0.4.4//tools//mem_rw//mem_rw%%%fast-0.4.4//tools//version//version%%%fast-0.4.4//tools//ua_fwd//ua_fwd
+Expand=fast-0.4.4
+
+[Debugger]
+Stop at beginning=2
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
+Selected Configuration=Default
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
