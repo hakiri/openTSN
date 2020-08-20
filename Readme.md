@@ -1,6 +1,8 @@
 # OpenTSN: Open source TSN
 
 ## This text is automatically translated from chinesse using automatic translation tool
+#### Original Link : [https://gitee.com/opentsn/openTSN](https://gitee.com/opentsn/openTSN)
+
 
 **Introduction to OpenTSN**: **OpenTSN** is a **TSN integrated verification environment** designed based on the FAST architecture. 
 The main design goals include:
