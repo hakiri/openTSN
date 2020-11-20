@@ -1,5 +1,7 @@
 # OpenTSN: Open source TSN
 
+## This repository doesn't specify license. Without author's permission, this code is only for learning and cannot be used for other purposes. 
+
 ## This text is automatically translated from chinesse using automatic translation tool
 #### Original Link : [https://gitee.com/opentsn/openTSN](https://gitee.com/opentsn/openTSN)
 
